@@ -15,7 +15,7 @@ Welcome to the Machine Learning Specialization! You're joining millions of other
 Here's a definition of what is machine learning that is attributed to Arthur Samuel. 
 He defined machine learning as the field of study that gives computers the ability to learn without being explicitly programmed.
 
-<img style="border:1px solid black;" src="./w01-03-What_is_machine_learning/img_2023-01-28_07-53-13.png">
+> <img style="border:1px solid black;" src="./w01-03-What_is_machine_learning/img_2023-01-28_07-53-13.png">
 
 Samuel wrote a checkers playing program in the 1950s
 The amazing thing about this program was that Arthur Samuel himself wasn't a very good checkers player. 
