@@ -175,10 +175,27 @@ This is also called the **squared error cost function**, and it's called this be
 
 ## Cost function intuition
 
+In order for us to better visualize the cost function J, we work with a simplified version of the linear regression model (b=0). 
+
  > <img src="./images/w01-12-Cost_function_intuition/img_2023-01-28_10-35-23.png">
+
+
+Now, using this simplified model, let's see how the cost function changes as you choose different values for the parameter w. 
+In particular, let's look at graphs of the model f of x, and the cost function J.
+
+For w=1, J(1)=0
  > <img src="./images/w01-12-Cost_function_intuition/img_2023-01-28_10-36-01.png">
+ 
+For w=0.5, J(0.5)=0.58...
+ 
  > <img src="./images/w01-12-Cost_function_intuition/img_2023-01-28_10-36-39.png">
+
+ And so on...
+
  > <img src="./images/w01-12-Cost_function_intuition/img_2023-01-28_10-37-18.png">
+ 
+ In the more general case where we had parameters w and b rather than just w, you find the values of w and b that minimize J.
+ 
  > <img src="./images/w01-12-Cost_function_intuition/img_2023-01-28_10-37-48.png">
 
 
