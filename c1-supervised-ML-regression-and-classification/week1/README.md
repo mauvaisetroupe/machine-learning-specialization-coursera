@@ -63,10 +63,25 @@ The two major types of supervised learning our regression and classification. In
 
 ## Unsupervised learning part 1
 
+Don't let the name uncivilized for you, unsupervised learning is I think just as super as supervised learning
+
  > <img src="./w01-06-Unsupervised_learning_part_1/img_2023-01-28_10-05-37.png">
+ 
+ 
+ An unsupervised learning algorithm, might decide that the data can be assigned to two different groups or two different clusters. And so it might decide, that there's one cluster what group over here, and there's another cluster or group over here. This is a particular type of unsupervised learning, called a clustering algorithm.
+ 
  > <img src="./w01-06-Unsupervised_learning_part_1/img_2023-01-28_10-06-05.png">
+
+For example, clustering is used in google news, what google news does is every day it goes. And looks at hundreds of thousands of news articles on the internet, and groups related stories together.
+
  > <img src="./w01-06-Unsupervised_learning_part_1/img_2023-01-28_10-06-39.png">
+
+ This image shows a picture of DNA micro array data, these look like tiny grids of a spreadsheet. And each tiny column represents the genetic or DNA activity of one person
+
  > <img src="./w01-06-Unsupervised_learning_part_1/img_2023-01-28_10-07-03.png">
+
+ Many companies have huge databases of customer information given this data. Unsupervised learning can you automatically group your customers, into different market segments so that you can more efficiently serve your customers. 
+
  > <img src="./w01-06-Unsupervised_learning_part_1/img_2023-01-28_10-07-31.png">
 
 ## Unsupervised learning part 2
