@@ -259,7 +259,20 @@ w=-0.13 and b=71
 
 ## Gradient descent
 
+ Gradient descent is an algorithm to find in systematic way the values of w and b that minimize the cost function.
+ Gradient descent is used all over the place in machine learning, not just for linear regression, but for training for example some of the most advanced neural network models, also called deep learning models.
+
  > <img src="./images/w01-15-Gradient_descent/img_2023-01-28_11-15-30.png">
+
+Now, let's imagine that this surface plot is actually a view of a slightly hilly outdoor park where the high points are hills and the low points are valleys.
+
+You are physically standing at this point on the hill. Your goal is to start up here and get to the bottom of one of these valleys as efficiently as possible
+
+What the gradient descent algorithm does is : 
+1. you're going to spin around 360 degrees and look around and ask yourself
+1. take a tiny little baby step in direction of steepest descent
+1. after taking this first step, you're now at this point on the hill over here. Now let's repeat the process.
+
  > <img src="./images/w01-15-Gradient_descent/img_2023-01-28_11-16-02.png">
 
 ## Implementing gradient descent
