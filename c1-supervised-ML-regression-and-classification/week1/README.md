@@ -139,10 +139,18 @@ Notice that the horizontal and vertical axes correspond to these two columns, th
 Terminology:
  - the dataset that you just saw and that is used to train the model is called a **training set**.  
  - the standard notation to denote the input here is lowercase x, and we call this the **input variable**, is also called a **feature** or an **input feature**. 
+ - the standard notation to denote the output variable which you're trying to predict, which is also sometimes called the **target variable**, is lowercase y.
 
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-29-32.png">
 
 ## Linear regression model part 2
+
+ 1. **Training set** in supervised learning includes both the **input features**, and **output targets** are the right answers to the model we'll learn from. 
+ 1. To train the model, you feed the training set, both the input features and the output targets to your **learning algorithm**.
+ 1. Then your supervised learning algorithm will produce some **function** called the **model** (historically, this function used to be called a **hypothesis**)
+ 1. The function f take a new **input feature** x and output and **estimate** or a **prediction** **y-hat** (in contrast, y is the target)
+
+
 
  > <img src="./w01-10-Linear_regression_model_part_2/img_2023-01-28_10-31-08.png">
 
