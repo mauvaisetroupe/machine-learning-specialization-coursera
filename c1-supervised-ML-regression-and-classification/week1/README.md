@@ -110,10 +110,20 @@ Nn supervised learning, the data comes with both inputs x and input labels y, in
 ## Linear regression model part 1
 
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-26-26.png">
+
+
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-26-46.png">
+ 
+
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-27-17.png">
+ 
+
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-27-39.png">
+ 
+
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-28-00.png">
+ 
+
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-29-32.png">
 
 ## Linear regression model part 2
