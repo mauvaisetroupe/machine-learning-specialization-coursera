@@ -241,7 +241,12 @@ Function J is at a minimum at the center of this concentric ovals
 
 ## Visualization examples
 
+w=-0.15 and b=800
+
  > <img src="./images/w01-14-Visualization_examples/img_2023-01-28_11-13-15.png">
+
+w=-0.13 and b=71
+
  > <img src="./images/w01-14-Visualization_examples/img_2023-01-28_11-14-26.png">
 
 ## Optional lab: Cost function
