@@ -25,14 +25,40 @@ His program learned to get better and better at playing checkers because the com
 
 ## Supervised learning part 1
 
+Supervised machine learning or more commonly, supervised learning, refers to algorithms that learn x to y or input to output mappings. 
+
+The key characteristic of supervised learning is that you give your learning algorithm examples to learn from. 
+For a given input x, you give the right answers (the correct label y )
+It's by seeing correct pairs of input x and desired output label y that the learning algorithm learns to give a reasonably accurate prediction of the output.
+
  > <img src="./w01-04-Supervised_learning_part_1/img_2023-01-28_08-29-03.png">
+ 
+So supervised learning algorithms learn to predict input, output or X to Y mapping
+
+This housing price prediction example is the particular type of supervised learning called regression. 
+
+> Regression is a statistical method used in finance, investing, and other disciplines that attempts to determine the strength and character of the relationship between one dependent variable (usually denoted by Y) and a series of other variables (known as independent variables).
+
  > <img src="./w01-04-Supervised_learning_part_1/img_2023-01-28_08-29-26.png">
 
 ## Supervised learning part 2
 
+Supervised learning algorithms learn to predict input, output or X to Y mapping. 
+Regression algorithms, which is a type of supervised learning algorithm learns to predict numbers out of infinitely many possible numbers. 
+There's a second major type of supervised learning algorithm called a classification algorithm.
+
  > <img src="./w01-05-Supervised_learning_part_2/img_2023-01-28_08-33-39.png">
+
+ One reason that this is different from regression is that we're trying to predict only a small number of possible outputs or categories. In this case two possible outputs 0 or 1, benign or malignant.
+
  > <img src="./w01-05-Supervised_learning_part_2/img_2023-01-28_08-33-54.png">
+
+ Here's an example, instead of just knowing the tumor size, say you also have each patient's age in years. 
+
  > <img src="./w01-05-Supervised_learning_part_2/img_2023-01-28_08-34-18.png">
+
+The two major types of supervised learning our regression and classification. In a regression application like predicting prices of houses, the learning algorithm has to predict numbers from infinitely many possible output numbers. Whereas in classification the learning algorithm has to make a prediction of a category, all of a small set of possible outputs.
+
  > <img src="./w01-05-Supervised_learning_part_2/img_2023-01-28_08-34-51.png">
 
 ## Unsupervised learning part 1
