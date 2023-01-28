@@ -109,20 +109,36 @@ Nn supervised learning, the data comes with both inputs x and input labels y, in
 
 ## Linear regression model part 1
 
- > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-26-26.png">
+ <!-- img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-26-26.png" -->
 
 
- > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-26-46.png">
+ <!-- img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-26-46.png" -->
+
+
  
+ The first model of this course, Linear Regression Model, just means fitting a straight line to your data. 
+ 
+ It's probably the most widely used learning algorithm in the world today.
 
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-27-17.png">
- 
 
- > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-27-39.png">
+ <!-- img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-27-39.png" -->
  
+In addition to visualizing this data as a plot here on the left, there's one other way of looking at the data that would be useful, and that's a data table here on the right. 
+
+The data comprises a set of inputs. 
+
+This would be the size of the house, which is this column here. 
+
+It also has outputs. You're trying to predict the price, which is this column here. 
+
+Notice that the horizontal and vertical axes correspond to these two columns, the size and the price. If you have, say, 47 rows in this data table, then there are 47 of these little crosses on the plot of the left, each cross corresponding to one row of the table. 
 
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-28-00.png">
- 
+
+Terminology:
+ - the dataset that you just saw and that is used to train the model is called a **training set**.  
+ - the standard notation to denote the input here is lowercase x, and we call this the **input variable**, is also called a **feature** or an **input feature**. 
 
  > <img src="./w01-09-Linear_regression_model_part_1/img_2023-01-28_10-29-32.png">
 
