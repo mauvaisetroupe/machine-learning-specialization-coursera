@@ -201,12 +201,42 @@ For w=0.5, J(0.5)=0.58...
 
 ## Visualizing the cost function
 
+In the last video, we had temporarily set b to zero in order to simplify the visualizations. Now, let's go back to the original model with both parameters w and b without setting b to be equal to 0.
+
  > <img src="./images/w01-13-Visualizing_the_cost_function/img_2023-01-28_11-07-17.png">
+
+**When we had only one parameter w**, the cost function had this U-shaped curve, shaped a bit like a soup bowl
+
  > <img src="./images/w01-13-Visualizing_the_cost_function/img_2023-01-28_11-07-37.png">
+
+**When we have two parameters**, w and b. The plots becomes a little more complex. It turns out that the cost function also has a similar shape like a soup bowl, except in three dimensions instead of two.
+
+This looks like a soup bowl, or maybe a hammock
+
+Any single point on this surface represents some particular choice of w and b. For example, if w was minus 10 and b was minus 15, then the height of the surface above this point is the value of j when w is minus 10 and b is minus 15. 
+
  > <img src="./images/w01-13-Visualizing_the_cost_function/img_2023-01-28_11-07-55.png">
+ 
+Visualisation of cost function using these 3D-surface plots
+
  > <img src="./images/w01-13-Visualizing_the_cost_function/img_2023-01-28_11-08-06.png">
+
+Visulisation of cost function using something called a contour plot
+If you've ever seen a topographical map showing how high different mountains are, the contours in a topographical map are basically horizontal slices of the landscape of say, a mountain. This image is of Mount Fuji in Japan
+
  > <img src="./images/w01-13-Visualizing_the_cost_function/img_2023-01-28_11-08-13.png">
+
+If you fly directly above the mountain, that's what this contour map looks like. 
+It shows all the points, they're at the same height for different heights.
+
  > <img src="./images/w01-13-Visualizing_the_cost_function/img_2023-01-28_11-08-16.png">
+
+Next, here on the upper right is a contour plot of this exact same cost function as that shown at the bottom. The two axes on this contour plots are b, on the vertical axis, and w on the horizontal axis. What each of these ovals, also called ellipses, shows points have the same value for the cost function J.
+
+In other words, the set of points which have the same value for the cost function J. To get the contour plots, you take the 3D surface at the bottom and you use a knife to slice it horizontally. 
+
+Function J is at a minimum at the center of this concentric ovals
+
  > <img src="./images/w01-13-Visualizing_the_cost_function/img_2023-01-28_11-08-51.png">
 
 ## Visualization examples
