@@ -158,8 +158,18 @@ Terminology:
 
 ## Cost function formula
 
+w and b are called the **parameters** of the model (or **coefficients** or **weights**). In machine learning parameters of the model are the variables you can adjust during training in order to improve the model
+
  > <img src="./images/w01-11-Cost_function_formula/img_2023-01-28_10-32-24.png">
+
+Depending on the values you've chosen for w and b you get a different function f of x, which generates a different line on the graph.
+
  > <img src="./images/w01-11-Cost_function_formula/img_2023-01-28_10-32-49.png">
+
+The **cost function** takes the prediction y hat and compares it to the target y by taking y hat minus y. This difference is called the error.
+
+This is also called the **squared error cost function**, and it's called this because you're taking the square of these error terms. In machine learning different people will use different cost functions for different applications, but the squared error cost function is by far the most commonly used 
+
  > <img src="./images/w01-11-Cost_function_formula/img_2023-01-28_10-34-00.png">
 
 
