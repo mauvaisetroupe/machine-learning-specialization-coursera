@@ -275,6 +275,10 @@ What the gradient descent algorithm does is :
 
  > <img src="./images/w01-15-Gradient_descent/img_2023-01-28_11-16-02.png">
 
+If you were to run gradient descent this second time, starting just a couple steps in the right of where we did it the first time, then you end up in a totally different valley. 
+
+The bottoms of both the first and the second valleys are called **local minima**
+
 ## Implementing gradient descent
 
  > <img src="./images/w01-16-Implementing_gradient_descent/img_2023-01-28_11-18-04.png">
