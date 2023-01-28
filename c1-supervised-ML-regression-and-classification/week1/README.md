@@ -86,7 +86,14 @@ For example, clustering is used in google news, what google news does is every d
 
 ## Unsupervised learning part 2
 
+Nn supervised learning, the data comes with both inputs x and input labels y, in unsupervised learning, the data comes only with inputs x but not output labels y, and the algorithm has to find some structure or some pattern or something interesting in the data.
+
  > <img src="./w01-07-Unsupervised_learning_part_2/img_2023-01-28_10-09-20.png">
+
+  - Clustering algorithm, which groups similar data points together
+  - Anomaly detection, which is used to detect unusual events
+  - dimensionality reduction. This lets you take a big data-set and almost magically compress it to a much smaller data-set while losing as little information as possible.
+
  > <img src="./w01-07-Unsupervised_learning_part_2/img_2023-01-28_10-09-48.png">
 
 ## Jupyter Notebooks
