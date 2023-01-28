@@ -1,0 +1,20 @@
+w01-01-Welcome to machine learning
+w01-02-Applications of machine learning
+w01-03-What is machine learning?
+w01-04-Supervised learning part 1
+w01-05-Supervised learning part 2
+w01-06-Unsupervised learning part 1
+w01-07-Unsupervised learning part 2
+w01-08-Jupyter Notebooks
+w01-09-Linear regression model part 1
+w01-10-Linear regression model part 2
+w01-11-Cost function formula
+w01-12-Cost function intuition
+w01-13-Visualizing the cost function
+w01-14-Visualization examples
+w01-15-Gradient descent
+w01-16-Implementing gradient descent
+w01-17-Gradient descent intuition
+w01-18-Learning rate
+w01-19-Gradient descent for linear regression
+w01-20-Running gradient descent
