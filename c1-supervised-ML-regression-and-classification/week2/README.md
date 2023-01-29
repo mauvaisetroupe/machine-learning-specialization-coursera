@@ -50,8 +50,17 @@ If you have thousands of features and perhaps very large training sets, this typ
 
 ## Gradient descent for multiple linear regression
 
+Impact of vectorization for gradient descent algorithm 
+
 > <img src="./images/w02-04-Gradient_descent_for_multiple_linear_regression/img_2023-01-29_07-46-03.png">
+
+The formula for the derivative of J with respect to w_1 on the right looks very similar to the case of one feature on the left. The error term still takes a prediction f of x minus the target y. One difference is that w and x are now vectors. 
+
 > <img src="./images/w02-04-Gradient_descent_for_multiple_linear_regression/img_2023-01-29_07-46-25.png">
+
+An alternative way for finding w and b for linear regression exists and it'i's called the normal equation
+Just be aware that some machine learning libraries may use this complicated method in the back-end to solve for w and b. But for most learning algorithms, including how you implement linear regression yourself, gradient descents offer a better way to get the job done
+
 > <img src="./images/w02-04-Gradient_descent_for_multiple_linear_regression/img_2023-01-29_07-46-41.png">
 
 ## Optional Lab: Multiple linear regression
