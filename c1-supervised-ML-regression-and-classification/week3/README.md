@@ -261,6 +261,16 @@ Detail calculation on derivative
 
 ## Regularized logistic regression
 
+If you want to modify it to use regularization, all you need to do is add to it the following term. 
+
+> <img src="./images/w03-11-Regularized_logistic_regression/img_2023-01-29_17-23-32.png">
+
+, 
+In fact is the exact same equation that the ones for linear regression, except for the fact that the definition of f is now no longer the linear function, it is the logistic function applied to z. 
+
+> <img src="./images/w03-11-Regularized_logistic_regression/img_2023-01-29_17-24-30.png">
+
+
 ## Optional lab: Regularization
 
 
