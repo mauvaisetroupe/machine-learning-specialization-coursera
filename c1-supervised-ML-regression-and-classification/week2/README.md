@@ -28,6 +28,14 @@ We use row vectors for :
 
 ## Vectorization part 1
 
+Learning how to write vectorized code will allow you to also take advantage of modern numerical linear algebra libraries, as well as maybe even GPU hardware that stands for graphics processing unit
+
+This NumPy dot function is a vectorized implementation of the dot product operation between two vectors
+
+Vectorization actually has two distinct benefits. 
+ - it makes code shorter, is now just one line of code. 
+ - it also results in your code running much faster than either of the two previous implementations that did not use vectorization. The reason that the vectorized implementation is much faster is behind the scenes. The NumPy dot function is able to use parallel hardware in your computer and this is true whether you're running this on a normal computer, that is on a normal computer CPU or if you are using a GPU, a graphics processor unit, that's often used to accelerate machine learning jobs. 
+ 
 > <img src="./images/w02-02-Vectorization_part_1/img_2023-01-29_07-43-53.png">
 
 ## Vectorization part 2
