@@ -312,10 +312,24 @@ Dericative equals zero at local minimum (slope of tangente line)
 
 ## Gradient descent for linear regression
 
+Gradient descent algorithm and squared error cost function for linear regression 
+
  > <img src="./images/w01-19-Gradient_descent_for_linear_regression/img_2023-01-28_11-34-19.png">
+
+ Detail of derivative terms calculation
+
  > <img src="./images/w01-19-Gradient_descent_for_linear_regression/img_2023-01-28_11-34-32.png">
- > <img src="./images/w01-19-Gradient_descent_for_linear_regression/img_2023-01-28_11-34-44.png">
+ 
+ <!-- img src="./images/w01-19-Gradient_descent_for_linear_regression/img_2023-01-28_11-34-44.png"-->
+
+Depending on where you initialize the parameters w and b, you can end up at different local minima.
+
  > <img src="./images/w01-19-Gradient_descent_for_linear_regression/img_2023-01-28_11-34-54.png">
+
+When using a squared error cost function with linear regression, the cost function does not and will never have multiple local minima. It has a single global minimum because of this bowl-shape. 
+
+The technical term for this is that this cost function is a convex function
+
  > <img src="./images/w01-19-Gradient_descent_for_linear_regression/img_2023-01-28_11-35-01.png">
 
 
