@@ -336,6 +336,9 @@ The technical term for this is that this cost function is a convex function
 ## Running gradient descent
 
  > <img src="./images/w01-20-Running_gradient_descent/img_2023-01-28_11-36-49.png">
+
+Gradient descent process is called batch gradient descent. The term bashed grading descent refers to the fact that on every step of gradient descent, we're looking at all of the training examples, instead of just a subset of the training data.
+
  > <img src="./images/w01-20-Running_gradient_descent/img_2023-01-28_11-37-06.png">
 
 
