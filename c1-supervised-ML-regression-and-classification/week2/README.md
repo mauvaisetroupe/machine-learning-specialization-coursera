@@ -115,12 +115,19 @@ If the cost J decreases by less than this number epsilon on one iteration, then 
 
 ## Choosing the learning rate
 
+Concretely, if you plot the cost for a number of iterations and notice that the costs sometimes goes up and sometimes goes down, you should take that as a clear sign that gradient descent is not working properly. This could mean that there's a bug in the code. Or sometimes it could mean that your learning rate is too large. 
+
 > <img src="./images/w02-08-Choosing_the_learning_rate/img_2023-01-29_07-51-04.png">
+
+Try out gradient descents with each value of Alpha being roughly three times bigger than the previous value
+
 > <img src="./images/w02-08-Choosing_the_learning_rate/img_2023-01-29_07-51-15.png">
 
 ## Optional Lab: Feature scaling and learning rate
 
 ## Feature engineering
+
+You may have an intuition that the area of the land is more predictive of the price, than the frontage and depth as separate features. You might define a new feature, x_3, as x_1 times x_2. This new feature x_3 is equal to the area of the plot of land.
 
 > <img src="./images/w02-09-Feature_engineering/img_2023-01-29_07-51-50.png">
 
