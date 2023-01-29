@@ -1,0 +1,17 @@
+w01-01-Welcome
+w01-02-Neurons_and_the_brain
+w01-03-Demand_Prediction
+w01-04-Example:_Recognizing_Images
+w01-05-Neural_network_layer
+w01-06-More_complex_neural_networks
+w01-07-Inference:_making_predictions_(forward_propagation)
+w01-08-Inference_in_Code
+w01-09-Data_in_TensorFlow
+w01-10-Building_a_neural_network
+w01-11-Forward_prop_in_a_single_layer
+w01-12-General_implementation_of_forward_propagation
+w01-13-Is_there_a_path_to_AGI?
+w01-14-How_neural_networks_are_implemented_efficiently
+w01-15-Matrix_multiplication
+w01-16-Matrix_multiplication_rules
+w01-1z-Matrix_multiplication_code
