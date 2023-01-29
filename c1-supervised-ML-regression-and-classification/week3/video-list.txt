@@ -1,0 +1,11 @@
+w03-01-Motivations
+w03-02-Logistic_regression
+w03-03-Decision_boundary
+w03-04-Cost_function_for_logistic_regression
+w03-05-Simplified_Cost_Function_for_Logistic_Regression
+w03-06-Gradient_Descent_Implementation
+w03-07-The_problem_of_overfitting
+w03-08-Addressing_overfitting
+w03-09-Cost_function_with_regularization
+w03-10-Regularized_linear_regression
+w03-11-Regularized_logistic_regression
