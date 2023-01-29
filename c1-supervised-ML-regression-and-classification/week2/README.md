@@ -86,9 +86,20 @@ When the data is not scaled the cost function can be very steep in those dimensi
 
 ## Feature scaling part 2
 
+You can calculate a scale version dividing by the maximum. 
+
 > <img src="./images/w02-06-Feature_scaling_part_2/img_2023-01-29_07-48-46.png">
+
+In addition to dividing by the maximum, you can also do what's called mean normalization.
+
 > <img src="./images/w02-06-Feature_scaling_part_2/img_2023-01-29_07-49-00.png">
+
+There's one last common re-scaling method call Z-score normalization. To implement Z-score normalization, you need to calculate the standard deviation of each feature
+
 > <img src="./images/w02-06-Feature_scaling_part_2/img_2023-01-29_07-49-20.png">
+
+As a rule of thumb, when performing feature scaling, you might want to aim for getting the features to range from anywhere around negative one to around plus one for each feature x
+
 > <img src="./images/w02-06-Feature_scaling_part_2/img_2023-01-29_07-49-32.png">
 
 ## Checking gradient descent for convergence
