@@ -72,7 +72,16 @@ Just be aware that some machine learning libraries may use this complicated meth
 ## Feature scaling part 1
 
 > <img src="./images/w02-05-Feature_scaling_part_1/img_2023-01-29_07-47-33.png">
+
+Scaling the data ensures that all dimensions have similar values, which makes it easier for gradient descent to converge. It is generally recommended to scale the data before using it to train a gradient descent model.
+
+
 > <img src="./images/w02-05-Feature_scaling_part_1/img_2023-01-29_07-47-43.png">
+
+Scaling the data can have a significant impact on the convergence of gradient descent
+
+When the data is not scaled the cost function can be very steep in those dimensions and therefore the parameter update will be larger in those dimensions, which can lead to sudden and unstable movements of the parameters, which can slow down the convergence of the algorithm.
+
 > <img src="./images/w02-05-Feature_scaling_part_1/img_2023-01-29_07-47-57.png">
 
 ## Feature scaling part 2
