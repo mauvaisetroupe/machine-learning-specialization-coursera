@@ -195,6 +195,18 @@ Similarly, underfitting and overfitting apply a classification as well.
 
 ## Addressing overfitting
 
+Collecting more data
+> <img src="./images/w03-08-Addressing_overfitting/img_2023-01-29_16-05-02.png">
+
+Excluding features
+> <img src="./images/w03-08-Addressing_overfitting/img_2023-01-29_16-05-18.png">
+
+Reducing the size of the parameters using regularization 
+> <img src="./images/w03-08-Addressing_overfitting/img_2023-01-29_16-05-42.png">
+
+In a nutshell:
+> <img src="./images/w03-08-Addressing_overfitting/img_2023-01-29_16-05-56.png">
+
 ## Optional lab: Overfitting
 
 ## Cost function with regularization
