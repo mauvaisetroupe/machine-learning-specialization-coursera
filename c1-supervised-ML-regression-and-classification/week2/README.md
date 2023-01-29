@@ -7,8 +7,23 @@ This week, you'll extend linear regression to handle multiple input features. Yo
 ## Multiple features
 
 > <img src="./images/w02-01-Multiple_features/img_2023-01-29_07-39-17.png">
+
+Notation: 
+- X subscript j (for short, X sub j) to represent the list of features
+- As before, we'll use X superscript i to denote the ith training example
+- X superscript i is actually going to be a list of numbers, we represent it as a **row vector**
+
 > <img src="./images/w02-01-Multiple_features/img_2023-01-29_07-39-49.png">
+
+Previously, this is how we defined the model, where X was a single feature, so a single number. 
+But now with multiple features, the model will be, fwb of X equals w1x1 plus w2x2 plus w3x3 plus w4x4 plus b
+
 > <img src="./images/w02-01-Multiple_features/img_2023-01-29_07-40-13.png">
+
+We use row vectors for :
+ - weights parameters W_1, W_2, W_3
+ - lists all of the features X_1, X_2, X_3 
+
 > <img src="./images/w02-01-Multiple_features/img_2023-01-29_07-40-44.png">
 
 ## Vectorization part 1
