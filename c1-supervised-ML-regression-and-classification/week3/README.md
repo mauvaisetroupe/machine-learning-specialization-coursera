@@ -242,6 +242,23 @@ So to summarize in this modified cost function, we want to minimize
 
 ## Regularized linear regression
 
+ Previously the derivative of J with respect to w_j was given by this expression over here, and the derivative respect to b was given by this expression over here. Now that we've added this additional regularization term, the only thing that changes is that the expression for the derivative with respect to w_j ends up with one additional term
+
+> <img src="./images/w03-10-Regularized_linear_regression/img_2023-01-29_17-06-39.png">
+
+Let's take these definitions for the derivatives and put them back into the expression on the left to write out the gradient descent algorithm for regularized linear regression.
+
+> <img src="./images/w03-10-Regularized_linear_regression/img_2023-01-29_17-07-09.png">
+
+What regularization is doing on every single iteration is you're multiplying w by a number slightly less than 1, and that has effect of shrinking the value of w_j just a little bit. This gives us another view on why regularization has the effect of shrinking the parameters w_j a little bit on every iteration, and so that's how regularization works. 
+
+> <img src="./images/w03-10-Regularized_linear_regression/img_2023-01-29_17-10-11.png">
+
+Detail calculation on derivative
+
+> <img src="./images/w03-10-Regularized_linear_regression/img_2023-01-29_17-12-26.png">
+
+
 ## Regularized logistic regression
 
 ## Optional lab: Regularization
