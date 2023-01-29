@@ -1,0 +1,10 @@
+w02-01-Multiple_features
+w02-02-Vectorization_part_1
+w02-03-Vectorization_part_2
+w02-04-Gradient_descent_for_multiple_linear_regression
+w02-05-Feature_scaling_part_1
+w02-06-Feature_scaling_part_2
+w02-07-Checking_gradient_descent_for_convergence
+w02-08-Choosing_the_learning_rate
+w02-09-Feature_engineering
+w02-10-Polynomial_regression
