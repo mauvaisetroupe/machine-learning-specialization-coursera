@@ -37,7 +37,7 @@ By the end of this Specialization, you will be ready to:
 
 ## Advanced Learning Algorithms
 
-In the second course of the Machine Learning Specialization, you will:
+[In the second course of the Machine Learning Specialization](./c2-advanced-learning-algorithms/README.md), you will:
 
 - Build and train a neural network with TensorFlow to perform multi-class classification
 - Apply best practices for machine learning development so that your models generalize to data and tasks in the real world
