@@ -95,6 +95,25 @@ When you're building your own neural network, one of the decisions you need to m
 
 ## Example: Recognizing Images
 
+> <img src="./images/w01-04-Example:_Recognizing_Images/img_2023-01-29_21-47-16.png">
+
+In the first hidden layer, you might find one neuron that is looking for the low vertical line or a vertical edge like that. A second neuron looking for a oriented line or oriented edge like that. The third neuron looking for a line at that orientation, and so on. In the earliest layers of a neural network, you might find that the neurons are looking for very short lines or very short edges in the image. 
+
+> <img src="./images/w01-04-Example:_Recognizing_Images/img_2023-01-29_21-50-39.png">
+
+If you look at the next hidden layer, you find that these neurons might learn to group together lots of little short lines and little short edge segments in order to look for parts of faces. For example, each of these little square boxes is a visualization of what that neuron is trying to detect. This first neuron looks like it's trying to detect the presence or absence of an eye in a certain position of the image. The second neuron, looks like it's trying to detect like a corner of a nose and maybe this neuron over here is trying to detect the bottom of an ear. 
+
+> <img src="./images/w01-04-Example:_Recognizing_Images/img_2023-01-29_21-50-47.png">
+
+Then as you look at the next hidden layer in this example, the neural network is aggregating different parts of faces to then try to detect presence or absence of larger, coarser face shapes. Then finally, detecting how much the face corresponds to different face shapes creates a rich set of features that then helps the output layer try to determine the identity of the person picture. A remarkable thing about the neural network is you can learn these feature detectors at the different hidden layers all by itself. In this example, no one ever told it to look for short little edges in the first layer, and eyes and noses and face parts in the second layer and then more complete face shapes at the third layer. 
+
+> <img src="./images/w01-04-Example:_Recognizing_Images/img_2023-01-29_21-52-20.png">
+
+Just for fun, let's see what happens if you were to train this neural network on a different dataset, say on lots of pictures of cars, picture on the side. The same learning algorithm is asked to detect cars, will then learn edges in the first layer. Pretty similar but then they'll learn to detect parts of cars in the second hidden layer and then more complete car shapes in the third hidden layer. Just by feeding it different data, the neural network automatically learns to detect very different features so as to try to make the predictions of car detection or person recognition or whether there's a particular given task that is trained on
+
+> <img src="./images/w01-04-Example:_Recognizing_Images/img_2023-01-29_21-54-51.png">
+
+
 ## Have questions, issues or ideas? Join our Community!
 
 
