@@ -167,6 +167,32 @@ Quite similar with linear regression
 
 ## The problem of overfitting
 
+
+### Underfit (first diagramm)
+
+Checking learning algorithms for bias based on characteristics such as gender or ethnicity is absolutely critical. But the term bias has a second technical meaning as well, which is the one I'm using here, which is if the algorithm has underfit the data, meaning that it's just not even able to fit the training set that well.
+
+There's a clear pattern in the training data that the algorithm is just unable to capture. 
+The learning algorithm has a very strong preconception, or we say a very strong bias, that the housing prices are going to be a completely linear function of the size despite data to the contrary.
+
+We'll use the terms underfit and high bias almost interchangeably
+
+### Generalization (second diagramm)
+
+If the learning algorithm work well, even on examples that are not on the training set, that's called generalization. Technically we say that you want your learning algorithm to generalize well, which means to make good predictions even on brand new examples that it has never seen before. 
+
+### Overfit (third diagramm)
+
+Another term for this is that the algorithm has high variance. In machine learning, many people will use the terms over-fit and high-variance almost interchangeably.  The intuition behind overfitting or high-variance is that the algorithm is trying very hard to fit every single training example. It turns out that if your training set were just even a little bit different, then the function that the algorithm fits could end up being totally different. 
+
+
+> <img src="./images/w03-07-The_problem_of_overfitting/img_2023-01-29_13-24-29.png">
+
+Similarly, underfitting and overfitting apply a classification as well. 
+
+> <img src="./images/w03-07-The_problem_of_overfitting/img_2023-01-29_13-26-51.png">
+
+
 ## Addressing overfitting
 
 ## Optional lab: Overfitting
