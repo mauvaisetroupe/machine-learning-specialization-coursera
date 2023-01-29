@@ -61,6 +61,27 @@ g(z) is interpreted as a percentage (probability)
 
 ## Decision boundary
 
+Let's take a look at the decision boundary to get a better sense of how logistic regression is computing these predictions.
+Model predicts 1 whenever w.x + b >= 0.
+
+> <img src="./images/w03-03-Decision_boundary/img_2023-01-29_11-15-02.png">
+
+Visualization of the decision boundary for logistic regression when the parameters w_1=1, w_2=1, and b=-3. 
+Of course, if you had a different choice of the parameters, the decision boundary would be a different line
+
+> <img src="./images/w03-03-Decision_boundary/img_2023-01-29_11-19-39.png">
+
+
+Vizualization of decision boudary fo w_1=1, w_2=1 and b=-1.
+
+> <img src="./images/w03-03-Decision_boundary/img_2023-01-29_11-22-58.png">
+
+
+Even more complex examples
+
+> <img src="./images/w03-03-Decision_boundary/img_2023-01-29_11-25-10.png">
+
+
 ## Optional lab: Decision boundary
 
 
