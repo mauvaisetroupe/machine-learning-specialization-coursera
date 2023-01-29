@@ -104,7 +104,13 @@ As a rule of thumb, when performing feature scaling, you might want to aim for g
 
 ## Checking gradient descent for convergence
 
+For a succesfull gradientdescent algorithm, one of the key choices is the choice of the learning rate Alpha
+
 > <img src="./images/w02-07-Checking_gradient_descent_for_convergence/img_2023-01-29_07-50-05.png">
+
+Let's let epsilon be a variable representing a small number, such as 0.001 or 10^-3. 
+If the cost J decreases by less than this number epsilon on one iteration, then you're likely on this flattened part of the curve that you see on the left and you can declare convergence
+
 > <img src="./images/w02-07-Checking_gradient_descent_for_convergence/img_2023-01-29_07-50-24.png">
 
 ## Choosing the learning rate
