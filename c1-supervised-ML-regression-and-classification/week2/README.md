@@ -133,9 +133,22 @@ You may have an intuition that the area of the land is more predictive of the pr
 
 ## Polynomial regression
 
+Let's say you have a housing data-set that looks like this, where feature x is the size in square feet. It doesn't look like a straight line fits this data-set very well
+
+To fit a curve, you may introduce a quadratic function to the data like this which includes a size x and also x square
+
 > <img src="./images/w02-10-Polynomial_regression/img_2023-01-29_07-53-08.png">
+
+Then you may choose a cubic function where we now have not only x squared, but x cubed. Maybe this model produces this curve here, which is a somewhat better fit to the data because the size does eventually come back up as the size increases
+
 > <img src="./images/w02-10-Polynomial_regression/img_2023-01-29_07-53-44.png">
+
+Applying feature scaling to get your features into comparable ranges of values. 
+
 > <img src="./images/w02-10-Polynomial_regression/img_2023-01-29_07-53-54.png">
+
+Later in the second course in this specialization, you see how you can choose different features and different models that include or don't include these features, and you have a process for measuring how well these different models perform to help you decide which features to include or not include. For now, I just want you to be aware that you have a choice in what features you use. By using feature engineering and polynomial functions, you can potentially get a much better model for your data
+
 > <img src="./images/w02-10-Polynomial_regression/img_2023-01-29_07-54-12.png">
 
 ## Optional lab: Feature engineering and Polynomial regression
