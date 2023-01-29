@@ -139,6 +139,19 @@ This cost function has the nice property that it is convex.
 
 ## Gradient Descent Implementation
 
+To fit the parameters of a logistic regression model, we're going to try to find the values of the parameters w and b that minimize the cost function J of w and b, and we'll again apply gradient descent to do this.
+
+> <img src="./images/w03-06-Gradient_Descent_Implementation/img_2023-01-29_12-34-08.png">
+
+When calculating derivatives, we have:
+
+> <img src="./images/w03-06-Gradient_Descent_Implementation/img_2023-01-29_12-35-49.png">
+
+Quite similar with linear regression
+
+> <img src="./images/w03-06-Gradient_Descent_Implementation/img_2023-01-29_12-38-09.png">
+
+
 ## Optional lab: Gradient descent for logistic regression
 
 ## Optional lab: Logistic regression with scikit-learn
