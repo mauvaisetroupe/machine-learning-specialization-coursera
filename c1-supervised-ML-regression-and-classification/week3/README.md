@@ -94,6 +94,8 @@ Thresold is not always 0.5
 
 # Cost function for logistic regression
 
+## Cost function for logistic regression
+
 > <img src="./images/w03-04-Cost_function_for_logistic_regression/img_2023-01-29_12-00-44.png">
 
 You could try to use the same cost function for logistic regression, then the cost will look like this. 
@@ -112,9 +114,6 @@ Intuition for for y<sup>(i)</sup> = 0
 Proving that this function is convex, it's beyond the scope of this cost.
 
 > <img src="./images/w03-04-Cost_function_for_logistic_regression/img_2023-01-29_12-15-29.png">
-
-
-## Cost function for logistic regression
 
 ## Optional lab: Logistic loss
 
