@@ -211,6 +211,35 @@ In a nutshell:
 
 ## Cost function with regularization
 
+If you fit a very high order polynomial, you end up with a curve that over fits the data. 
+So the idea is that if there are smaller values for the parameters, then that's a bit like having a simpler model. 
+Maybe one with fewer features, which is therefore less prone to overfitting
+
+But now consider the following, suppose that you had a way to make the parameters W3 and W4 close to 0. 
+If we modify the cost function and add to it 1000*W3<sup>2</sup> + 1000*W4<sup>2</sup>, we penpenalize the model if W3 and W4 are large. 
+Because if you want to minimize this function, the only way to make this new cost function small is if W3 and W4 are both small, close to 0.
+
+> <img src="./images/w03-09-Cost_function_with_regularization/img_2023-01-29_16-31-20.png">
+
+But more generally, the way that regularization tends to be implemented is if you have a lot of features, you may not know which are the most important features and which ones to penalize. So the way regularization is typically implemented is to penalize all of the features or more precisely, you penalize all the WJ parameters and it's possible to show that this will usually result in fitting a smoother simpler, less weekly function that's less prone to overfitting
+
+This value lambda here is also called a regularization parameter. So similar to picking a learning rate alpha, you now also have to choose a number for lambda. 
+
+By convention we also divide lambda by 2m so that both the 1st and 2nd terms here are scaled by 1 over 2m. It turns out that by scaling both terms the same way it becomes a little bit easier to choose a good value for lambda.
+
+> <img src="./images/w03-09-Cost_function_with_regularization/img_2023-01-29_16-33-43.png">
+
+Also by the way, by convention we're not going to penalize the parameter b for being large. In practice, it makes very little difference whether you do or not (but possible to do)
+
+> <img src="./images/w03-09-Cost_function_with_regularization/img_2023-01-29_16-33-48.png">
+
+So to summarize in this modified cost function, we want to minimize 
+ - the original cost, which is the mean squared error cost (encourages the algorithm to fit the training data well)
+ - plus additionally, the second term which is called the regularization term (to keep the parameters wj small, which will tend to reduce overfitting)
+
+> <img src="./images/w03-09-Cost_function_with_regularization/img_2023-01-29_16-34-46.png">
+
+
 ## Regularized linear regression
 
 ## Regularized logistic regression
