@@ -81,6 +81,10 @@ Even more complex examples
 
 > <img src="./images/w03-03-Decision_boundary/img_2023-01-29_11-25-10.png">
 
+Thresold is not always 0.5
+
+> <img src="./images/w03-03-Decision_boundary/img_2023-01-29_11-30-40.png">
+
 
 ## Optional lab: Decision boundary
 
