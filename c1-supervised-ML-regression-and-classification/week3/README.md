@@ -119,6 +119,16 @@ Proving that this function is convex, it's beyond the scope of this cost.
 
 ## Simplified Cost Function for Logistic Regression
 
+Because y is either zero or one we can write Cost Function equivalently
+
+> <img src="./images/w03-05-Simplified_Cost_Function_for_Logistic_Regression/img_2023-01-29_12-27-29.png">
+
+This particular cost function is derived from statistics using a statistical principle called maximum likelihood estimation, which is an idea from statistics on how to efficiently find parameters for different models. 
+This cost function has the nice property that it is convex. 
+
+> <img src="./images/w03-05-Simplified_Cost_Function_for_Logistic_Regression/img_2023-01-29_12-28-34.png">
+
+
 ## Optional lab: Cost function for logistic regression
 
 
