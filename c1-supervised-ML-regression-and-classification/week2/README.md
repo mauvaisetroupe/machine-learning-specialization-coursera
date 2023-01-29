@@ -41,6 +41,9 @@ Vectorization actually has two distinct benefits.
 ## Vectorization part 2
 
 > <img src="./images/w02-03-Vectorization_part_2/img_2023-01-29_07-44-39.png">
+
+If you have thousands of features and perhaps very large training sets, this type of vectorized implementation will make a huge difference in the running time of your learning algorithm. It could be the difference between codes finishing in one or two minutes, versus taking many hours to do the same thing
+
 > <img src="./images/w02-03-Vectorization_part_2/img_2023-01-29_07-45-17.png">
 
 ## Optional lab: Python, NumPy and vectorization
