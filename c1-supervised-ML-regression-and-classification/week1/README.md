@@ -281,17 +281,33 @@ The bottoms of both the first and the second valleys are called **local minima**
 
 ## Implementing gradient descent
 
+Attention points :
+ - equal sign is the assignment operator
+ - update w & b simultaneously
+
  > <img src="./images/w01-16-Implementing_gradient_descent/img_2023-01-28_11-18-04.png">
 
 ## Gradient descent intuition
 
  > <img src="./images/w01-17-Gradient_descent_intuition/img_2023-01-28_11-18-57.png">
+
+Derivative is the slope of the tangente line, and coud be positive or negative (thats's explain why gradient descent reach the minimum)
+
  > <img src="./images/w01-17-Gradient_descent_intuition/img_2023-01-28_11-19-19.png">
 
 ## Learning rate
 
+If the learning rate is too small, then gradient descents will work, but it will be slow (lot of steps before reaching the minimum)
+If learning rate is set too high, it can cause undesirable divergent behaviour in loss function
+
  > <img src="./images/w01-18-Learning_rate/img_2023-01-28_11-20-40.png">
+
+Dericative equals zero at local minimum (slope of tangente line)
+
  > <img src="./images/w01-18-Learning_rate/img_2023-01-28_11-21-08.png">
+
+ Approach the local minimum, the derivative automatically gets smaller, and so steps automatically gets smaller even if the learning rate alpha is kept at some fixed value. 
+
  > <img src="./images/w01-18-Learning_rate/img_2023-01-28_11-21-26.png">
 
 ## Gradient descent for linear regression
