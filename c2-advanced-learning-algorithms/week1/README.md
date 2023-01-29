@@ -7,7 +7,26 @@ This week, you'll learn about neural networks and how to use them for classifica
 
 ## Welcome!
 
+> <img src="./images/w01-01-Welcome/img_2023-01-29_19-38-15.png">
+
 ## Neurons and the brain
+
+> <img src="./images/w01-02-Neurons_and_the_brain/img_2023-01-29_19-43-29.png">
+
+All of human thought is from neurons like this in your brain and mine, sending electrical impulses and sometimes forming new connections of other neurons. Given a neuron like this one, it has a number of inputs where it receives electrical impulses from other neurons, and then carries out some computations and will then send this outputs to other neurons by this electrical impulses
+
+> <img src="./images/w01-02-Neurons_and_the_brain/img_2023-01-29_19-44-47.png">
+
+Here's a simplified diagram of a biological neuron and comparison with software
+
+Now, at this point, I'd like to give one big caveat, which is that even though I made a loose analogy between biological neurons and artificial neurons, I think that today we have almost no idea how the human brain works. In fact, every few years, neuroscientists make some fundamental breakthrough about how the brain works
+
+> <img src="./images/w01-02-Neurons_and_the_brain/img_2023-01-29_20-36-28.png">
+
+Why now?
+
+> <img src="./images/w01-02-Neurons_and_the_brain/img_2023-01-29_20-39-15.png">
+
 
 ## Demand Prediction
 
