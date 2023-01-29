@@ -89,7 +89,7 @@ What the neural network does is instead of you needing to manually engineer the 
 
 > <img src="./images/w01-03-Demand_Prediction/img_2023-01-29_20-59-51.png">
 
-This question of how many hidden layers and how many neurons per hidden layer is a question of the architecture of the neural network. You'll learn later in this course some tips for choosing an appropriate architecture for a neural network
+When you're building your own neural network, one of the decisions you need to make is how many hidden layers do you want and how many neurons do you want each hidden layer to have (architecture of the neural network)
 
 > <img src="./images/w01-03-Demand_Prediction/img_2023-01-29_21-02-33.png">
 
