@@ -85,7 +85,6 @@ Thresold is not always 0.5
 
 > <img src="./images/w03-03-Decision_boundary/img_2023-01-29_11-30-40.png">
 
-
 ## Optional lab: Decision boundary
 
 
@@ -93,8 +92,27 @@ Thresold is not always 0.5
 # Practice quiz: Classification with logistic regression
 
 
-
 # Cost function for logistic regression
+
+> <img src="./images/w03-04-Cost_function_for_logistic_regression/img_2023-01-29_12-00-44.png">
+
+You could try to use the same cost function for logistic regression, then the cost will look like this. 
+This becomes what's called a non-convex cost function is not convex. 
+
+> <img src="./images/w03-04-Cost_function_for_logistic_regression/img_2023-01-29_12-03-03.png">
+
+Intuition for for y<sup>(i)</sup> = 1 
+
+> <img src="./images/w03-04-Cost_function_for_logistic_regression/img_2023-01-29_12-11-27.png">
+
+Intuition for for y<sup>(i)</sup> = 0
+
+> <img src="./images/w03-04-Cost_function_for_logistic_regression/img_2023-01-29_12-13-14.png">
+
+Proving that this function is convex, it's beyond the scope of this cost.
+
+> <img src="./images/w03-04-Cost_function_for_logistic_regression/img_2023-01-29_12-15-29.png">
+
 
 ## Cost function for logistic regression
 
