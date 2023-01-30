@@ -158,6 +158,12 @@ The input to layer 2 is the output of layer 1, (vector 0.3, 0.7, 0.2)
 
 ## More complex neural networks
 
+Input / Hidden / Output Layers
+> <img src="./images/w01-06-More_complex_neural_networks/img_2023-01-30_16-38-19.png">
+
+Notation of Activation Layer l, unit j is a<sub>j</sub><sup>[l]</sup> 
+> <img src="./images/w01-06-More_complex_neural_networks/img_2023-01-30_16-40-39.png">
+
 ## Inference: making predictions (forward propagation)
 
 ## Neurons and Layers
