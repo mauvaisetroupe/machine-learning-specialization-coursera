@@ -349,7 +349,13 @@ array([1, 2])
 
 ## Is there a path to AGI?
 
+> <img src="./images/w01-13-Is_there_a_path_to_AGI/img_2023-01-30_20-08-54.png">
 
+> <img src="./images/w01-13-Is_there_a_path_to_AGI/img_2023-01-30_20-09-44.png">
+
+> <img src="./images/w01-13-Is_there_a_path_to_AGI/img_2023-01-30_20-09-58.png">
+
+I don't know if the brain is really one or a small handful of algorithms, and even if it were, I have no idea, and I don't think anyone knows what the algorithm is, but I still this hope alive, and maybe it is, and maybe we could, through a lot of hard work, someday discover an approximation to it.
 
 # Vectorization (Optional)
 
