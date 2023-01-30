@@ -10,6 +10,25 @@ This week, you'll learn how to train your model in TensorFlow, and also learn ab
 
 ## Training Details
 
+In TensorFlow, this is called the binary cross-entropy loss function. Where does that name come from? Well, it turns out in statistics this function on top is called the cross-entropy loss function, so that's what cross-entropy means, and the word binary just reemphasizes or points out that this is a binary classification problem because each image is either a zero or a one. 
+
+> <img src="./images/w02-02-Training_Details/img_2023-01-30_22-23-20.png">
+
+Step 1 - create the model
+
+> <img src="./images/w02-02-Training_Details/img_2023-01-30_22-23-57.png">
+
+Step 2 - Loss and Cost functions
+
+> <img src="./images/w02-02-Training_Details/img_2023-01-30_22-29-11.png">
+
+Step 3 - Gradient descent
+
+> <img src="./images/w02-02-Training_Details/img_2023-01-30_22-32-25.png">
+
+Frameworks
+
+> <img src="./images/w02-02-Training_Details/img_2023-01-30_22-32-39.png">
 
 
 # Practice quiz: Neural Network Training
