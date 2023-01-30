@@ -194,6 +194,34 @@ Because this computation goes from left to right, you start from x and compute a
 
 ## Inference in Code
 
+TensorFlow is one of the leading frameworks to implementing deep learning algorithms.
+Example illustrate roasting coffee, with two parameters, temperature at which you're heating up the raw coffee beans, as well as the duration
+
+> <img src="./images/w01-08-Inference_in_Code/img_2023-01-30_17-55-42.png">
+
+Good coffee correspond to a duration and temperature within this triangle. 
+
+> <img src="./images/w01-08-Inference_in_Code/img_2023-01-30_17-56-01.png">
+
+- We're going to set x to be an array of two numbers :  200 degrees celsius and 17 minutes
+- Then you create Layer 1 as this first hidden layer. Dense is another name for the layers of a neural network using sigmoid function as activation function
+- then you compute a1 
+
+> <img src="./images/w01-08-Inference_in_Code/img_2023-01-30_17-56-27.png">
+
+Idem for layer 2
+
+> <img src="./images/w01-08-Inference_in_Code/img_2023-01-30_17-56-35.png">
+
+Finally, set threshold at 0.5
+
+> <img src="./images/w01-08-Inference_in_Code/img_2023-01-30_17-56-44.png">
+
+If we translate previous example, (handwritten digit classification problem)
+
+> <img src="./images/w01-08-Inference_in_Code/img_2023-01-30_17-56-55.png">
+
+
 ## Data in TensorFlow
 
 ## Building a neural network
