@@ -224,6 +224,50 @@ If we translate previous example, (handwritten digit classification problem)
 
 ## Data in TensorFlow
 
+NumPy was first created and became a standard library for linear algebra and Python. 
+Later the Google brain team created TensorFlow. 
+And unfortunately there are some inconsistencies between how data is represented in NumPy and in TensorFlow.
+
+Why do you have this double square bracket in NumPy matrix/
+
+> <img src="./images/w01-09-Data_in_TensorFlow/img_2023-01-30_18-16-29.png">
+
+By convention the dimension of the matrix is written as the number of rows by the number of columns.
+NumPy store a matrix as un array of rows
+
+> <img src="./images/w01-09-Data_in_TensorFlow/img_2023-01-30_18-16-38.png">
+
+
+> <img src="./images/w01-09-Data_in_TensorFlow/img_2023-01-30_18-16-51.png">
+
+To represent the input features x with TensorFlow the convention is to use matrices to represent the data (or 2D-vector)
+- row vector (first example in slide)
+- column vector (second example in slide)
+
+Whereas in course one when we're working with linear regression and logistic regression, we use these 1D vectors 
+- 1D vector (third example in slide)
+
+> <img src="./images/w01-09-Data_in_TensorFlow/img_2023-01-30_18-17-09.png">
+
+TensorFlow has switched conventions because it was designed to handle very large datasets
+Representing the data in matrices instead of 1D arrays lets TensorFlow be a more computationally efficient internally
+So in the following example, input is represented as a 1x2 matrix
+
+> <img src="./images/w01-09-Data_in_TensorFlow/img_2023-01-30_18-17-15.png">
+
+And there, a1 is a tf.tensor that correspond to a 1x3 matrix
+A tensor here is a data type that the TensorFlow team had created in order to store and carry out computations on matrices efficiently. 
+Technically a tensor is a little bit more general than the matrix but for the purposes of this course, think of tensor as just a way of representing matrices. 
+
+Tensor can be converted into NumPy matrix 
+
+> <img src="./images/w01-09-Data_in_TensorFlow/img_2023-01-30_18-17-33.png">
+
+Same for Layer 2
+
+> <img src="./images/w01-09-Data_in_TensorFlow/img_2023-01-30_18-17-49.png">
+
+
 ## Building a neural network
 
 ## Coffee Roasting in Tensorflow
