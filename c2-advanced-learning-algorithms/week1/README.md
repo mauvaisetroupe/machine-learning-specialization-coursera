@@ -361,11 +361,24 @@ I don't know if the brain is really one or a small handful of algorithms, and ev
 
 ## How neural networks are implemented efficiently
 
+> <img src="./images/w01-14-How_neural_networks_are_implemented_efficiently/img_2023-01-30_20-20-56.png">
+
 ## Matrix multiplication
+
+> <img src="./images/w01-15-Matrix_multiplication/img_2023-01-30_20-21-48.png">
+> <img src="./images/w01-15-Matrix_multiplication/img_2023-01-30_20-21-56.png">
+> <img src="./images/w01-15-Matrix_multiplication/img_2023-01-30_20-22-11.png">
 
 ## Matrix multiplication rules
 
+> <img src="./images/w01-16-Matrix_multiplication_rules/img_2023-01-30_20-22-58.png">
+> <img src="./images/w01-16-Matrix_multiplication_rules/img_2023-01-30_20-23-11.png">
+> <img src="./images/w01-16-Matrix_multiplication_rules/img_2023-01-30_20-23-42.png">
+
 ## Matrix multiplication code
+
+> <img src="./images/w01-17-Matrix_multiplication_code/img_2023-01-30_20-24-13.png">
+> <img src="./images/w01-17-Matrix_multiplication_code/img_2023-01-30_20-24-29.png">
 
 
 
