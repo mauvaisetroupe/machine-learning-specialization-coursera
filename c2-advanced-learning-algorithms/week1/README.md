@@ -127,6 +127,35 @@ Just for fun, let's see what happens if you were to train this neural network on
 
 ## Neural network layer
 
+The fundamental building block of most modern neural networks is a **layer** of neurons. 
+
+- This hidden layer receive four numbers as input and these four numbers are inputs to each of three neurons
+- Each of these three neurons implements a little logistic regression function, and so each neurone has two parameters, w and b
+- To denote each neurone, neurone 1 has two parameters, w<sub>1</sub> and b<sub>1</sub>
+
+
+> <img src="./images/w01-05-Neural_network_layer/img_2023-01-30_16-08-32.png">
+
+By convention, we give layers a number, (the input layer is also sometimes called layer 0) 
+
+In order to introduce notation to help us distinguish between the different layers, we use superscript square bracket to index into different layers [1]
+
+- Neurone one has two parameters : w<sub>1</sub><sup>[1]</sup> and b<sub>1</sub><sup>[1]</sup>
+- In this example, these three neurons output 0.3, 0.7, and 0.2, and this vector of three numbers becomes the vector of activation values a, that is then passed to the final output layer of this neural network
+
+> <img src="./images/w01-05-Neural_network_layer/img_2023-01-30_16-09-20.png">
+
+Same for layer [2], called output layer
+
+The input to layer 2 is the output of layer 1, (vector 0.3, 0.7, 0.2)
+
+> <img src="./images/w01-05-Neural_network_layer/img_2023-01-30_16-09-40.png">
+
+ Once the neural network has computed a<sup>[2]</sup>, there's one final optional step for binary prediction
+
+> <img src="./images/w01-05-Neural_network_layer/img_2023-01-30_16-09-52.png">
+
+
 ## More complex neural networks
 
 ## Inference: making predictions (forward propagation)
