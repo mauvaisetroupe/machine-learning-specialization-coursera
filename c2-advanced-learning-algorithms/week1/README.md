@@ -309,6 +309,11 @@ Example of handwritten digit recognition:
 
 # Neural network implemntation in python
 
+With tensorflow or pytorch, we implement neural network with just these five lines of codes
+To really know what the code is actually doing underneath the hood we implement it from scratch in python 
+
+> <img src="./images/w01-11-Forward_prop_in_a_single_layer/img_2023-01-30_19-41-13.png">
+
 ## Forward prop in a single layer
 
 ## General implementation of forward propagation
