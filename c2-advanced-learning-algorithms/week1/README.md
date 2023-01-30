@@ -294,6 +294,9 @@ We can create Sequential deirectly, passing Dense into constructor
 
 > <img src="./images/w01-10-Building_a_neural_network/img_2023-01-30_19-26-46.png">
 
+Example of handwritten digit recognition:
+
+> <img src="./images/w01-10-Building_a_neural_network/img_2023-01-30_19-31-39.png">
 
 ## Coffee Roasting in Tensorflow
 
