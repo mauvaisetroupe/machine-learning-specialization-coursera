@@ -317,6 +317,26 @@ To really know what the code is actually doing underneath the hood we implement 
 
 ## General implementation of forward propagation
 
+In python, 
+
+```
+test = numpy.array([[1, 2], [3, 4], [5, 6]])
+```
+
+To access column 0:
+```
+>>> test[:, 0]
+array([1, 3, 5])
+```
+
+To access row 0:
+```
+>>> test[0, :]
+array([1, 2])
+```
+
+> <img src="./images/w01-12-General_implementation_of_forward_propagation/img_2023-01-30_19-48-33.png">
+
 ## CoffeeRoastingNumPy
 
 
