@@ -6,6 +6,8 @@ This week, you'll learn how to train your model in TensorFlow, and also learn ab
 
 ## TensorFlow implementation
 
+> <img src="./images/w02-01-TensorFlow_implementation/img_2023-01-30_22-15-48.png">
+
 ## Training Details
 
 
