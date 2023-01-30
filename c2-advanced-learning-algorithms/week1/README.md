@@ -267,8 +267,33 @@ Same for Layer 2
 
 > <img src="./images/w01-09-Data_in_TensorFlow/img_2023-01-30_18-17-49.png">
 
-
 ## Building a neural network
+
+Seen previously, if you want to do forward propagation
+ - you initialize the data X 
+ - create layer one
+ - create layer two 
+ - and compute a two
+
+This is an explicit way of implenting forward propagation, one layer of computation at the time
+
+
+> <img src="./images/w01-10-Building_a_neural_network/img_2023-01-30_19-19-43.png">
+
+It turns out that tensor flow has a different way of implementing forward prop
+- create layer 1
+- create layer 2
+- instead of manually taking the data and passing it to layer one and then taking the activations from layer 1 and pass it to layer 2, we can tell tensor flow to take the 2 layers to form a neural network,  by sequentially string together these two layers 
+
+> <img src="./images/w01-10-Building_a_neural_network/img_2023-01-30_19-26-23.png">
+
+- model.fit is to train the netowrk
+- model.predict to make a prediction
+
+We can create Sequential deirectly, passing Dense into constructor
+
+> <img src="./images/w01-10-Building_a_neural_network/img_2023-01-30_19-26-46.png">
+
 
 ## Coffee Roasting in Tensorflow
 
