@@ -166,6 +166,22 @@ Notation of Activation Layer l, unit j is a<sub>j</sub><sup>[l]</sup>
 
 ## Inference: making predictions (forward propagation)
 
+Example of handwritten digit recognition. This algorithm makes **inferences** or make predictions
+
+Layer 1 : 
+
+> <img src="./images/w01-07-Inference:_making_predictions_(forward_propagation)/img_2023-01-30_16-46-08.png">
+
+Layer 2 : 
+
+> <img src="./images/w01-07-Inference:_making_predictions_(forward_propagation)/img_2023-01-30_16-46-16.png">
+
+And then finally the output layer or outputs unit (what's the chance of this being 1 versus 0)
+
+Because this computation goes from left to right, you start from x and compute a1, then a2, then a3 this algorithm is also called **forward propagation**. And this is in contrast to a different algorithm called **backward propagation** or back propagation, which is used for learning.
+
+> <img src="./images/w01-07-Inference:_making_predictions_(forward_propagation)/img_2023-01-30_16-46-34.png">
+
 ## Neurons and Layers
 
 
