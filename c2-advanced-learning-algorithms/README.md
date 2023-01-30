@@ -10,6 +10,6 @@ It provides a broad introduction to modern machine learning, including supervise
 
 This week, you'll learn about neural networks and how to use them for classification tasks. You'll use the TensorFlow framework to build a neural network with just a few lines of code. Then, dive deeper by learning how to code up your own neural network in Python, "from scratch". Optionally, you can learn more about how neural network computations are implemented efficiently using parallel processing (vectorization).
 
-[Week 1 - Neural Networks Training](./week2/README.md)
+[Week 2 - Neural Networks Training](./week2/README.md)
 
 This week, you'll learn how to train your model in TensorFlow, and also learn about other important activation functions (besides the sigmoid function), and where to use each type in a neural network. You'll also learn how to go beyond binary...
