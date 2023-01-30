@@ -22,6 +22,7 @@ In TensorFlow, this is called the binary cross-entropy loss function.
 Name comes from statistics, this function on top is called the cross-entropy loss function, so that's what cross-entropy means
 And the word binary just reemphasizes or points out that this is a binary classification problem
 
+For refression, use tf.keras.losses.MeanSquaredError instead tf.keras.losses.BinaryCrossentropy
 
 > <img src="./images/w02-02-Training_Details/img_2023-01-30_22-29-11.png">
 
