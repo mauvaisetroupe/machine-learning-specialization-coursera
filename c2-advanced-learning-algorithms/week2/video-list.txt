@@ -1,0 +1,15 @@
+w02-01-TensorFlow_implementation
+w02-02-Training_Details
+w02-03-Alternatives_to_the_sigmoid_activation
+w02-04-Choosing_activation_functions
+w02-05-Why_do_we_need_activation_functions
+w02-06-Multiclass
+w02-07-Softmax
+w02-08-Neural_Network_with_Softmax_output
+w02-09-Improved_implementation_of_softmax
+w02-10-Classification_with_multiple_outputs
+w02-11-Advanced_Optimization
+w02-12-Additional_Layer_Types
+w02-13-What_is_a_derivative
+w02-14-Computation_graph
+w02-15-Larger_neural_network_example
