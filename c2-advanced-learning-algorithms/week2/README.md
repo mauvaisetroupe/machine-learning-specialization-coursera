@@ -59,6 +59,26 @@ Here are the most commonly used activation functions:
 
 ## Choosing activation functions
 
+Output Layer:
+- Linear for both negatives and positives values
+- ReLU for positives values
+- sigmoid for binary
+
+> <img src="./images/w02-04-Choosing_activation_functions/img_2023-01-31_19-55-59.png">
+
+Hidden Layer:
+- Even though we had initially described neural networks using the sigmoid activation function, the field has evolved to use ReLU much more often and sigmoids hardly ever (exception for binary classification problem)
+- Relu is prefered for two reasons:
+    - faster to compute because it just requires computing maximux, whereas the sigmoid requires taking an exponentiation
+    - sigmoid is fast at two place (vs one for ReLU) and so gradient descent is slower (intuition reason)
+
+> <img src="./images/w02-04-Choosing_activation_functions/img_2023-01-31_19-56-13.png">
+
+Summary 
+
+> <img src="./images/w02-04-Choosing_activation_functions/img_2023-01-31_19-56-23.png">
+
+
 ## Why do we need activation functions?
 
 ## ReLU activation
