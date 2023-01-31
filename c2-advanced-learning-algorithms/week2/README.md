@@ -42,6 +42,21 @@ Frameworks
 
 ## Alternatives to the sigmoid activation
 
+Using the sigmoid activation function awareness as a binary number 0, 1
+Maybe awareness should be any non negative number because there can be any non negative value of awareness going from 0 up to very very large numbers
+
+ReLU (rectified linear unit) is another activation function
+
+> <img src="./images/w02-03-Alternatives_to_the_sigmoid_activation/img_2023-01-31_19-46-59.png">
+
+Here are the most commonly used activation functions:
+- Sigmoid
+- ReLU
+- and Linear activation function g(z)=z (no activation function)
+
+> <img src="./images/w02-03-Alternatives_to_the_sigmoid_activation/img_2023-01-31_19-47-11.png">
+
+
 ## Choosing activation functions
 
 ## Why do we need activation functions?
