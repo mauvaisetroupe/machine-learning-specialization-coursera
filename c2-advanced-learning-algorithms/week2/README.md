@@ -78,8 +78,21 @@ Summary
 
 > <img src="./images/w02-04-Choosing_activation_functions/img_2023-01-31_19-56-23.png">
 
-
 ## Why do we need activation functions?
+
+If we were to use a linear activation function for all of the nodes, the neural network will act as a linear regression
+
+> <img src="./images/w02-05-Why_do_we_need_activation_functions/img_2023-01-31_20-07-55.png">
+
+Demonstration for a simple example of a neural network 
+
+> <img src="./images/w02-05-Why_do_we_need_activation_functions/img_2023-01-31_21-16-45.png">
+
+In the general case, if you had a neural network with multiple layers and you use a linear activation function for all of the hidden layers and for the output layer, then it turns out this model will compute an output that is equivalent to linear regression
+
+Or alternatively, if we were to still use a linear activation function for all the hidden layers, and logistic activation function for the output layer, then the model becomes equivalent to logistic regression
+
+> <img src="./images/w02-05-Why_do_we_need_activation_functions/img_2023-01-31_21-17-19.png">
 
 ## ReLU activation
 
