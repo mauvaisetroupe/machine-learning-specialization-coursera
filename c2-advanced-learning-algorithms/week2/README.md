@@ -205,6 +205,25 @@ Implemented wit output with multiple sigmoid units (neurones)
 
 # Additional Neural Network concepts
 
+Gradient descent is an optimization algorithm that was the foundation of many algorithms like linear regression, logistic regression and early implementations of neural networks. But there are now some other optimization algorithms for minimizing the cost function, that are even better than gradient descent.
+
+Depending on how gradient descent is proceeding, we need to increase or decrease learning rate Alpha
+
+> <img src="./images/w02-11-Advanced_Optimization/img_2023-02-01_17-50-05.png">
+
+Use more than one Alpha
+
+> <img src="./images/w02-11-Advanced_Optimization/img_2023-02-01_17-50-53.png">
+
+Intuition : increase when same direction, decrease when oscillation
+
+> <img src="./images/w02-11-Advanced_Optimization/img_2023-02-01_17-51-40.png">
+
+Implementation in tensorflow:
+
+> <img src="./images/w02-11-Advanced_Optimization/img_2023-02-01_17-52-24.png">
+
+
 ## Advanced Optimization
 
 ## Additional Layer Types
