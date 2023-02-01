@@ -186,6 +186,13 @@ Full algorithm:
 
 ## Classification with multiple outputs (Optional)
 
+Example of multi-label (multi labels possible), that differs from multi-class (only one class possible)
+> <img src="./images/w02-10-Classification_with_multiple_outputs/img_2023-02-01_17-42-01.png">
+
+Implemented wit output with multiple sigmoid units (neurones)
+> <img src="./images/w02-10-Classification_with_multiple_outputs/img_2023-02-01_17-42-11.png">
+
+
 ## Softmax
 
 ## Multiclass
