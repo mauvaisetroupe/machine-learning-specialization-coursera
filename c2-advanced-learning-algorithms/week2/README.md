@@ -275,7 +275,7 @@ Compute derivative in python with sympy
 <!--img src="./images/w02-13-What_is_a_derivative/img_2023-02-01_19-12-16.png"-->
 
 Derivative Notation 
- - Derivative $\frac{J}{w}$
+ - Derivative $\frac{dJ}{dw}$
  - Partial derivative $\frac{\partial J}{\partial w_i}$
 > <img src="./images/w02-13-What_is_a_derivative/img_2023-02-01_19-13-01.png">
 
