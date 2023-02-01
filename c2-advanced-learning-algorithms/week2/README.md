@@ -12,21 +12,41 @@ This week, you'll learn how to train your model in TensorFlow, and also learn ab
 
 > <img src="./images/w02-02-Training_Details/img_2023-01-30_22-23-20.png">
 
-Step 1 - create the model
+### Step 1 - create the model
 
 > <img src="./images/w02-02-Training_Details/img_2023-01-30_22-23-57.png">
 
-Step 2 - Loss and Cost functions
+### Step 2 - Loss and Cost functions
 
-In TensorFlow, this is called the binary cross-entropy loss function. 
-Name comes from statistics, this function on top is called the cross-entropy loss function, so that's what cross-entropy means
-And the word binary just reemphasizes or points out that this is a binary classification problem
+The cost function $J_{W,B}(\vec{X})$  is a function of **all the parameters** into neural network:
+- $W$, that includes matrix $W^{[1]}$, $W^{[2]}$ and $W^{[3]}$ for respectively layer 1, 2 and 3 (could be vectors as neurone one has only one weight $w_1^{[1]}$)
+- $B$, that includes $\vec{b}^{[1]}$, $\vec{b}^{[2]}$, $\vec{b}^{[3]}$, vectors of respectively layers 1, 2 and 3
 
-For refression, use tf.keras.losses.MeanSquaredError instead tf.keras.losses.BinaryCrossentropy
+Optimizing the cost function respect to $W$ and $B$, means optimizing it with respect to all of the parameters in the neural network (all layers)
+
+
+In TensorFlow, we can use for loss function :
+ - **tf.keras.losses.BinaryCrossentropy** (the name comes from statistics), and binary just reemphasizes this is a binary classification problem
+ - **tf.keras.losses.MeanSquaredError** for regression 
 
 > <img src="./images/w02-02-Training_Details/img_2023-01-30_22-29-11.png">
 
-Step 3 - Gradient descent
+Keras was originally a library that  had developed independently of TensorFlow is actually totally separate project from TensorFlow
+ 
+### Step 3 - Gradient descent
+
+To use gradient descent to train the parameters of a neural network, we repeatedly update $w_j^{[l]}$  for every layer $l$ and for every unit $j$
+
+This update depends on :
+- the learning rate 
+- and the partial derivative of the cost function $J_{W,B}(\vec{X})$, with respect to parameter  $w_j$ and $b$.
+
+ 
+So in order to use gradient descent, the key activity is **computing these partial derivative terms**.
+
+TensorFlow do all of these things for you, it implements backpropagation all within this function called fit().
+ 
+TensorFlow can use an algorithm that is even a little bit faster than gradient descent
 
 > <img src="./images/w02-02-Training_Details/img_2023-01-30_22-32-25.png">
 
@@ -96,9 +116,6 @@ Or alternatively, if we were to still use a linear activation function for all t
 
 ## ReLU activation
 
-
-
-
 # Practice quiz: Activation Functions
 
 
@@ -106,7 +123,28 @@ Or alternatively, if we were to still use a linear activation function for all t
 
 ## Multiclass
 
+For the handwritten digit classification problems we've looked at so far, we were just trying to distinguish between the handwritten digits 0 and 1. But if you're trying to read protocols or zip codes in an envelope, well, there are actually 10 possible digits you might want to recognize
+
+> <img src="./images/w02-06-Multiclass/img_2023-01-31_21-47-57.png">
+
+
+Another multiclass classification problems, where data set that maybe classified in 4 different classes 
+
+> <img src="./images/w02-06-Multiclass/img_2023-01-31_21-48-16.png">
+
 ## Softmax
+
+Wikipedia:
+> The softmax function (or normalized exponential function)  converts a vector of K real numbers into a probability distribution of K possible outcomes. It is a generalization of the logistic function to multiple dimensions
+> The softmax function takes as input a vector z of K real numbers, and normalizes it into a probability distribution consisting of K probabilities proportional to the exponentials of the input numbers. 
+> That is, prior to applying softmax, some vector components could be negative, or greater than one; and might not sum to 1; 
+> but after applying softmax, each component will be in the interval [0,1], and the components will add up to 1, so that they can be interpreted as probabilities
+
+> <img src="./images/w02-07-Softmax/img_2023-01-31_22-05-19.png">
+
+Softmax regression with n equals 2, is equivalent to logistic regression (not proven here)
+
+> <img src="./images/w02-07-Softmax/img_2023-01-31_22-11-38.png">
 
 ## Neural Network with Softmax output
 
