@@ -148,6 +148,20 @@ Softmax regression with n equals 2, is equivalent to logistic regression (not pr
 
 ## Neural Network with Softmax output
 
+Previously, when we were doing handwritten digit recognition with just two classes. 
+We use a new Neural Network with an output layer with one unique neurone or unit.
+
+If you now want to do handwritten digit classification with 10 classes, all the digits from zero to nine, then we're going to change this Neural Network to have 10 output units. And this new output layer will be a Softmax output layer
+
+Softmax layer will sometimes also called the Softmax activation function, it is a little bit unusual in one respect compared to the other activation functions. a1 is a function of Z1, Z3, up to Z10. So each of these activation values, it depends on all of the values of Z 
+
+> <img src="./images/w02-08-Neural_Network_with_Softmax_output/img_2023-02-01_17-07-01.png">
+
+Tensorflow implentation (there's a better version of the code that makes tensorflow work better)
+
+> <img src="./images/w02-08-Neural_Network_with_Softmax_output/img_2023-02-01_17-12-29.png">
+
+
 ## Improved implementation of softmax
 
 ## Classification with multiple outputs (Optional)
