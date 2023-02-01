@@ -164,6 +164,26 @@ Tensorflow implentation (there's a better version of the code that makes tensorf
 
 ## Improved implementation of softmax
 
+Computing with intermediate term could create round-off error. 
+
+> <img src="./images/w02-09-Improved_implementation_of_softmax/img_2023-02-01_17-20-56.png">
+
+Algorithm that allows TensorFlow to not have to compute a as an intermediate term for logistic regression
+
+> <img src="./images/w02-09-Improved_implementation_of_softmax/img_2023-02-01_17-28-36.png">
+
+Full algorithm:
+
+> <img src="./images/w02-09-Improved_implementation_of_softmax/img_2023-02-01_17-29-11.png">
+
+Algorithm that allows TensorFlow to not have to compute a as an intermediate term for softmax regression
+
+> <img src="./images/w02-09-Improved_implementation_of_softmax/img_2023-02-01_17-28-49.png">
+
+Full algorithm:
+
+> <img src="./images/w02-09-Improved_implementation_of_softmax/img_2023-02-01_17-29-03.png">
+
 ## Classification with multiple outputs (Optional)
 
 ## Softmax
