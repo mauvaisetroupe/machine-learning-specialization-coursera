@@ -322,6 +322,13 @@ Backprop efficiency
 
 ## Larger neural network example (Optional)
 
+
+> <img src="./images/w02-15-Larger_neural_network_example/img_2023-02-01_22-12-29.png">
+
+> <img src="./images/w02-15-Larger_neural_network_example/img_2023-02-01_22-12-40.png">
+
+> <img src="./images/w02-15-Larger_neural_network_example/img_2023-02-01_22-12-52.png">
+
 ## Optional Lab: Derivatives
 
 ## Optional Lab: Back propagation
