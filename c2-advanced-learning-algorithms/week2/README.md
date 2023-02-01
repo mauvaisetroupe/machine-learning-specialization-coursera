@@ -282,6 +282,44 @@ Derivative Notation
 
 ## Computation graph (Optional)
 
+The computation graph is a key idea in deep learning and it's used by programming framework like TensorFlow to automatic compute derivatives for 
+neural networks
+
+To compute the output a of the neural network, we need to execute the following forwrad propo steps of the the computation graph to calculate **a = wx + b** and then **J = 1/2(a-y)²** (**J = 1/2((wx + b) - y)²** )
+
+1. c = w . x
+2. a = c + b
+3. d = a - y
+4. J = 1/2 d²
+
+> <img src="./images/w02-14-Computation_graph/img_2023-02-01_19-42-06.png">
+
+Then we execute the backprop, from right to left. 
+
+1. J = 1/2 d²
+    - if d += 0.001, J += 0.002, so **dJ/dd** = 2
+2. d = a - y 
+    - if a += 0.001, d += 0.001, so **dd/da** =1 
+    - with step 1, if a += 0.001 then J+= 0.002, so we have **dJ/da** = **dd/da** . **dJ/dd**   
+3. a = c + b
+    - if c += 0.001, a += 0.001
+    - with step 2, if c += 0.001 then J+= 0.002, so we have **dJ/dc** = **da/dc** . **dJ/da**
+    - idem for b += 0.001, J += 0.002 
+4. c = w . x
+    - id w += 0.001 then c -= 0.002, J -= -0.004
+
+Chain rule is du\dx = du\dv . dv\dx or  d/dx ( f(g(x) ) = f' (g(x)) · g' (x)
+
+> <img src="./images/w02-14-Computation_graph/img_2023-02-01_20-03-09.png">
+
+Double check :
+
+> <img src="./images/w02-14-Computation_graph/img_2023-02-01_20-04-19.png">
+
+Backprop efficiency
+
+> <img src="./images/w02-14-Computation_graph/img_2023-02-01_20-07-53.png">
+
 ## Larger neural network example (Optional)
 
 ## Optional Lab: Derivatives
