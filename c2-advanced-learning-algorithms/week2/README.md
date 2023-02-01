@@ -322,6 +322,9 @@ Backprop efficiency
 
 ## Larger neural network example (Optional)
 
+Many years ago, before the rise of frameworks like tensorflow and pytorch, researchers used to have to manually use calculus to compute the derivatives of the neural networks that they wanted to train. 
+
+In modern program frameworks you can specify forwardprop and have it take care of backprop for you. Thanks to the computation graph and these techniques for automatically carrying out derivative calculations. Is sometimes called autodiff, for automatic differentiation. This process of researchers manually using calculus to take derivatives is no longer done. 
 
 > <img src="./images/w02-15-Larger_neural_network_example/img_2023-02-01_22-12-29.png">
 
