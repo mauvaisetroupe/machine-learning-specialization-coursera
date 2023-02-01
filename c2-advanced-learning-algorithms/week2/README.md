@@ -228,6 +228,21 @@ Implementation in tensorflow:
 ## Additional Layer Types
 
 
+With dense layer, every neuron in the layer gets its inputs all the activations from the previous layer. 
+And it turns out that just using the dense layer type, you can actually build some pretty powerful learning algorithms. 
+
+We can design a neural with a different type of layer. One other layer type that you may see in some work is called a **convolutional layer**
+
+
+> <img src="./images/w02-12-Additional_Layer_Types/img_2023-02-01_17-58-21.png">
+
+With convolutional layer units looks at only a limited window of the input
+
+> <img src="./images/w02-12-Additional_Layer_Types/img_2023-02-01_18-06-26.png">
+
+Exemple with Electrocardiogram (ECG or EKG)
+
+> <img src="./images/w02-12-Additional_Layer_Types/img_2023-02-01_18-12-41.png">
 
 
 # Practice quiz: Additional Neural Network Concepts
