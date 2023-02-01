@@ -13,3 +13,7 @@ This week, you'll learn about neural networks and how to use them for classifica
 [Week 2 - Neural Networks Training](./week2/README.md)
 
 This week, you'll learn how to train your model in TensorFlow, and also learn about other important activation functions (besides the sigmoid function), and where to use each type in a neural network. You'll also learn how to go beyond binary...
+
+[Week 3 - Advice for applying machine learning](./week3/README.md)
+
+This week you'll learn best practices for training and evaluating your learning algorithms to improve performance. This will cover a wide range of useful advice about the machine learning lifecycle, tuning your model, and also improving your training data.
