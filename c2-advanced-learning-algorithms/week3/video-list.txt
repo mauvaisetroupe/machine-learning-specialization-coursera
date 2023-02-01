@@ -1,0 +1,17 @@
+w03-01-Deciding_what_to_try_next
+w03-02-Evaluating_a_model
+w03-03-Model_selection_and_training_cross_validation_test_sets
+w03-04-Diagnosing_bias_and_variance
+w03-05-Regularization_and_bias_variance
+w03-06-Establishing_a_baseline_level_of_performance
+w03-07-Learning_curves
+w03-08-Deciding_what_to_try_next_revisited
+w03-09-Bias_variance_and_neural_networks
+w03-10-Iterative_loop_of_ML_development
+w03-11-Error_analysis
+w03-12-Adding_data
+w03-13-Transfer_learning:_using_data_from_a_different_task
+w03-14-Full_cycle_of_a_machine_learning_project
+w03-15-Fairness,_bias,_and_ethics
+w03-16-Error_metrics_for_skewed_datasets
+w03-17-Trading_off_precision_and_recall
