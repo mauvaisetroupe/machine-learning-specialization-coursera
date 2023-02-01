@@ -250,7 +250,35 @@ Exemple with Electrocardiogram (ECG or EKG)
 
 # Back propagation (Optional)
 
+Remeinder:
+ - Inference is making predictions and itś forward propagation
+ - Learning is called in contrast backward propagation or back propagation
+
 ## What is a derivative? (Optional)
+
+Example
+
+> <img src="./images/w02-13-What_is_a_derivative/img_2023-02-01_19-07-37.png">
+
+Definition of derivative
+
+> <img src="./images/w02-13-What_is_a_derivative/img_2023-02-01_19-09-29.png">
+
+Derivative and slope
+
+> <img src="./images/w02-13-What_is_a_derivative/img_2023-02-01_19-09-58.png">
+
+Compute derivative in python with sympy
+
+> <img src="./images/w02-13-What_is_a_derivative/img_2023-02-01_19-11-46.png">
+
+<!--img src="./images/w02-13-What_is_a_derivative/img_2023-02-01_19-12-16.png"-->
+
+Derivative Notation 
+ - Derivative $\frac{J}{w}$
+ - Partial derivative $\frac{\partial J}{\partial w_i}$
+> <img src="./images/w02-13-What_is_a_derivative/img_2023-02-01_19-13-01.png">
+
 
 ## Computation graph (Optional)
 
