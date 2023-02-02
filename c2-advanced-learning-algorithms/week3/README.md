@@ -19,6 +19,34 @@ Diagnostics can take time to implement, but running them can be a very good use 
 
 ## Evaluating a model
 
+In the graph below, we use just a single feature (the size of the house) and we can see the curve is very weakly so we know this parody isn't a good model. But with more features it becomes much harder to plot f() and detect the model is not correct
+
+We need some more systematic way to evaluate how well your model is doing
+
+> <img src="./w03-02-Evaluating_a_model/img_2023-02-02_23-07-11.png">
+
+Let's put 70% of the data into the first part to the train the model. 
+And the second part of the data, 30% of the data, to test his performance
+
+> <img src="./w03-02-Evaluating_a_model/img_2023-02-02_23-15-55.png">
+
+Cost function is used to train the model, but cost function (without regularization term) is also computed on test set in order to know if the model is doing well.
+
+> <img src="./w03-02-Evaluating_a_model/img_2023-02-02_23-16-07.png">
+
+In that case, cost function is fine on training set, but is not acceptable on test set.
+
+> <img src="./w03-02-Evaluating_a_model/img_2023-02-02_23-16-17.png">
+
+The same approach is also woking for classification problem
+
+> <img src="./w03-02-Evaluating_a_model/img_2023-02-02_23-16-25.png">
+
+For classification, you could use the fraction of missclassified to get acceptance test
+
+> <img src="./w03-02-Evaluating_a_model/img_2023-02-02_23-16-39.png">
+
+
 ## Model selection and training/cross validation/test sets
 
 ## Optional Lab: Model Evaluation and Selection
