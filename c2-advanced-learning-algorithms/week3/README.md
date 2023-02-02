@@ -6,6 +6,17 @@ This week you'll learn best practices for training and evaluating your learning 
 
 ## Deciding what to try next
 
+
+"I've seen teams sometimes, say six months to build a machine learning system, that I think a more skilled team could have taken or done in just a couple of weeks." The efficiency of how quickly you can get a machine learning system to work well, will depend to a large part on how well you can repeatedly make good decisions 
+
+> <img src="./w03-01-Deciding_what_to_try_next/img_2023-02-02_23-00-43.png">
+
+
+Diagnostics can take time to implement, but running them can be a very good use of your time
+
+> <img src="./w03-01-Deciding_what_to_try_next/img_2023-02-02_23-00-51.png">
+
+
 ## Evaluating a model
 
 ## Model selection and training/cross validation/test sets
