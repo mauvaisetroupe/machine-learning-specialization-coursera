@@ -200,7 +200,8 @@ And if you hear machine learning engineers talk about the bias variance tradeoff
 
 > <img src="./w03-09-Bias_variance_and_neural_networks/img_2023-02-03_16-30-31.png">
 
-If you make your neural network large enough, you can almost always fit your training set well. This gives us a new recipe to try to reduce bias or reduce variance as needed without needing to really trade off between the two of them.
+If you make your neural network large enough, you can almost always fit your training set well. This gives us a new recipe to try to reduce bias or reduce variance as needed without needing to really trade off between the
+ two of them.
 
 Now, of course there are limitations of the application of this recipe
  - training bigger neural network get computationally expensive. That's why the rise of neural networks has been really assisted by the rise of very fast computers, including especially GPUs or graphics processing units
@@ -228,6 +229,25 @@ In tensorflow :
 # Machine learning development process
 
 ## Iterative loop of ML development
+
+> <img src="./w03-10-Iterative_loop_of_ML_development/img_2023-02-03_17-00-51.png">
+
+Example for spam classification
+
+> <img src="./w03-10-Iterative_loop_of_ML_development/img_2023-02-03_17-01-21.png">
+
+You iplement that kind of algorithm
+
+> <img src="./w03-10-Iterative_loop_of_ML_development/img_2023-02-03_18-05-43.png">
+
+- Honeypot projects ar projects that create a large number of fake email addresses and tries to deliberately to get these fake email addresses into the hands of spammers 
+
+> <img src="./w03-10-Iterative_loop_of_ML_development/img_2023-02-03_18-13-50.png">
+
+Depending of diagnostics, you change the architecture, and continue the loop  
+
+> <img src="./w03-10-Iterative_loop_of_ML_development/img_2023-02-03_18-19-28.png">
+
 
 ## Error analysis
 
