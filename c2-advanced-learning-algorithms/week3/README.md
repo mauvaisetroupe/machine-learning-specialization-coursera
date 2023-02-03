@@ -151,6 +151,23 @@ But what does these words "high" or "much higher" actually mean? In order to ans
 
 ## Establishing a baseline level of performance
 
+There's a lot of noisy audio where really no one can accurately transcribe what was said because of the noise in the audio. If even a human makes 10.6 percent error, then it seems difficult to expect a learning algorithm to do much better. 
+
+When we benchmark it to human level performance, we see that the algorithm is actually doing quite well on the training set, but the bigger problem is the cross-validation error is much higher than the training error and so algorithm actually has more of a variance problem than a bias problem
+
+> <img src="./w03-06-Establishing_a_baseline_level_of_performance/img_2023-02-03_14-49-35.png">
+
+We can establish baseline by :
+- human measure
+- previous implementation that someone else has implemented
+- guess-based
+
+> <img src="./w03-06-Establishing_a_baseline_level_of_performance/img_2023-02-03_14-50-37.png">
+
+Depending on gap, we habe bias, variance of both issues.
+
+> <img src="./w03-06-Establishing_a_baseline_level_of_performance/img_2023-02-03_14-51-44.png">
+
 ## Learning curves
 
 ## Deciding what to try next revisited
