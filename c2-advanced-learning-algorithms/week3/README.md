@@ -102,6 +102,20 @@ This model selection procedure also works for choosing among other types of mode
 
 ## Diagnosing bias and variance
 
+The typical workflow of developing a machine learning system is that you have an idea and you train the model, and you almost always find that it doesn't work as well as you wish yet. How to decide what to do next in order to improve his performance? Looking at the bias and variance of a learning algorithm gives very good guidance on what to try next
+
+> <img src="./w03-04-Diagnosing_bias_and_variance/img_2023-02-03_10-10-25.png">
+
+Evolution of $J_{train}$ and $J_{cv}$
+> <img src="./w03-04-Diagnosing_bias_and_variance/img_2023-02-03_10-12-21.png">
+
+In this example, which looks artificial because it's a single feature input, we fit the training set really well and we overfit in part of the input, and we don't even fit the training data well, and we underfit the part of the input. 
+In that case 
+- $J_{train}$ is high AND
+- the cross-validation error is much larger than the training set
+
+> <img src="./w03-04-Diagnosing_bias_and_variance/img_2023-02-03_10-13-55.png">
+
 ## Regularization and bias/variance
 
 ## Establishing a baseline level of performance
