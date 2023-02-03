@@ -145,7 +145,7 @@ If you compare this diagram to the one where the horizontal axis was the degree 
 > <img src="./w03-05-Regularization_and_bias_variance/img_2023-02-03_11-54-37.png">
 
 
-Now, so far, we've seen that having an high J train is indicative of high bias and how having a high cross-validation error, specifically if it's much higher than training error, is indicative of variance problem. 
+Now, so far, we've seen that having an high $J_{train}$ is indicative of high bias and how having a high cross-validation error $J_{cv}$, specifically if it's much higher than training error, is indicative of variance problem. 
 
 But what does these words "high" or "much higher" actually mean? In order to answer the question, we introduce the notion of baseline level of performance.
 
