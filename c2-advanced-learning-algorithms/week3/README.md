@@ -187,6 +187,8 @@ When you have high variance, then increasing the training set size could help a 
 It is computationally quite expensive to train so many different models using different size subsets of your training set, so in practice, it isn't done that often, but nonetheless, I find that having this mental visual picture in my head of what the training set looks like, sometimes that helps me to think through what I think my learning algorithm is doing and whether it has high bias or high variance. 
 ## Deciding what to try next revisited
 
+> <img src="./w03-08-Deciding_what_to_try_next_revisited/img_2023-02-03_15-27-27.png">
+
 ## Bias/variance and neural networks
 
 ## Optional Lab: Diagnosing Bias and Variance
