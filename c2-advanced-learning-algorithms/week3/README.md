@@ -170,6 +170,21 @@ Depending on gap, we habe bias, variance of both issues.
 
 ## Learning curves
 
+If model is too simple to be fitting into much data, both of $J_{cv}$ and $J_{train}$ curves tend to flatten after a while.
+
+> <img src="./w03-07-Learning_curves/img_2023-02-03_15-00-35.png">
+
+There's a big gap between the baseline level of performance and $J_{train}$, which was our indicator for this algorithm having high bias.
+
+That gives this conclusion, maybe a little bit surprising, that if a learning algorithm has high bias, getting more training data will not by itself hope that much
+
+> <img src="./w03-07-Learning_curves/img_2023-02-03_15-11-44.png">
+
+When you have high variance, then increasing the training set size could help a lot
+
+> <img src="./w03-07-Learning_curves/img_2023-02-03_15-15-20.png">
+
+It is computationally quite expensive to train so many different models using different size subsets of your training set, so in practice, it isn't done that often, but nonetheless, I find that having this mental visual picture in my head of what the training set looks like, sometimes that helps me to think through what I think my learning algorithm is doing and whether it has high bias or high variance. 
 ## Deciding what to try next revisited
 
 ## Bias/variance and neural networks
