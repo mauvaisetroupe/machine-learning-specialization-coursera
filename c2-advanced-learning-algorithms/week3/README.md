@@ -46,8 +46,48 @@ For classification, you could use the fraction of missclassified to get acceptan
 
 > <img src="./w03-02-Evaluating_a_model/img_2023-02-02_23-16-39.png">
 
-
 ## Model selection and training/cross validation/test sets
+
+> <img src="./w03-03-Model_selection_and_training_cross_validation_test_sets/img_2023-02-02_23-28-27.png">
+
+
+One procedure (no the best) would be to compare these $J_{test}$ function, and select the one with the lowest value
+The procedure on this particular slide is flawed and not recommended 
+The reason this procedure is flawed is J test of $w^5$, $b^5$ is likely to be an optimistic estimate of the generalization error, because with basic fits, one extra parameter (the degree of polynomial) was chosen using the test set
+
+> <img src="./w03-03-Model_selection_and_training_cross_validation_test_sets/img_2023-02-02_23-28-43.png">
+
+ Instead, if you want to automatically choose a model (what degree polynomial to use) amongst different models (such as these 10 different models that you might contemplate using for your machine learning application) itś recommended to modify the training and testing procedure
+
+
+We split the data into three different subsets :
+ - training set, 
+ - the cross-validation set, 
+ - and then also the test set.  
+
+The name **cross-validation set** refers to that this is an extra dataset used to check or trust check the validity or really the accuracy of different models (not a great name, but used by people in machine learning). Also called **validation set**, or **development set**
+
+
+> <img src="./w03-03-Model_selection_and_training_cross_validation_test_sets/img_2023-02-02_23-28-56.png">
+
+Onto these three subsets we then compute the training error, the cross-validation error, and the test error using these three formulas. 
+
+> <img src="./w03-03-Model_selection_and_training_cross_validation_test_sets/img_2023-02-02_23-29-02.png">
+
+But instead of evaluating this on test set, we evaluate these parameters on cross-validation sets and compute $J_cv$ of $w^{<1>}$, $b^{<1>}$, ... $w^{<10>}$, $b^{<10>}$ and chose the one that have the lowest cross-validation error
+
+If we choose model 4, because $J_{cv}(w^{<4>},b^{<4>})$ is the lowest value, we then evaluate if the generalisation of the model is good with $J_{test}(w^{<4>},b^{<4>})$
+
+The procedure is fair because :
+1. we train the models with test set (choose w, b)
+2. we choose the model with cross-validation set (choose degree)
+3. test set is not used for chhosing any parameters,so we keep it to estimate the erro
+
+> <img src="./w03-03-Model_selection_and_training_cross_validation_test_sets/img_2023-02-02_23-29-15.png">
+
+This model selection procedure also works for choosing among other types of models. For example, choosing a neural network architecture
+
+> <img src="./w03-03-Model_selection_and_training_cross_validation_test_sets/img_2023-02-02_23-29-32.png">
 
 ## Optional Lab: Model Evaluation and Selection
 
