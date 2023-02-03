@@ -196,6 +196,27 @@ It is computationally quite expensive to train so many different models using di
 
 ## Bias/variance and neural networks
 
+And if you hear machine learning engineers talk about the bias variance tradeoff, they're referring to where if you have too simple a model, you have high bias, too complex a model high variance
+
+> <img src="./w03-09-Bias_variance_and_neural_networks/img_2023-02-03_16-30-31.png">
+
+If you make your neural network large enough, you can almost always fit your training set well. This gives us a new recipe to try to reduce bias or reduce variance as needed without needing to really trade off between the two of them.
+
+Now, of course there are limitations of the application of this recipe
+ - training bigger neural network get computationally expensive. That's why the rise of neural networks has been really assisted by the rise of very fast computers, including especially GPUs or graphics processing units
+ - beyond a certain point it's hard to get much more data. 
+
+> <img src="./w03-09-Bias_variance_and_neural_networks/img_2023-02-03_16-41-33.png">
+
+It almost never hurts to go to launch a neural network so long as you regularized appropriately with one caveat, it does become more computational expensive. 
+
+> <img src="./w03-09-Bias_variance_and_neural_networks/img_2023-02-03_16-49-57.png">
+
+In tensorflow :
+
+> <img src="./w03-09-Bias_variance_and_neural_networks/img_2023-02-03_16-51-04.png">
+
+
 ## Optional Lab: Diagnosing Bias and Variance
 
 
