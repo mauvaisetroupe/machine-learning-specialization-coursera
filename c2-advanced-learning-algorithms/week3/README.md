@@ -118,6 +118,32 @@ In that case
 
 ## Regularization and bias/variance
 
+Lambda is the regularization parameter that controls how much we trade-off :
+- keeping the parameters w small versus 
+- fitting the training data well
+
+How to choose a good value for lambda?
+
+> <img src="./w03-05-Regularization_and_bias_variance/img_2023-02-03_11-24-13.png">
+
+This would be procedures similar to what you had seen for choosing the degree of polynomial using cross-validation : 
+- minimize $J(w,b)$, 
+- find $W^{<1>}$ et $b^{<1>}$, 
+- and then compute the cross-validation error, $J_{cv}($W^{<1>}$, $b^{<1>}$))
+Repeat for next value of lambda
+
+Pick the model lowest with the lowest value of J for crosll validation set
+
+> <img src="./w03-05-Regularization_and_bias_variance/img_2023-02-03_11-27-32.png">
+
+Intuition of how training error and cross validation error vary as a function of the parameter Lambda.
+
+> <img src="./w03-05-Regularization_and_bias_variance/img_2023-02-03_11-34-25.png">
+
+If you compare this diagram to the one where the horizontal axis was the degree of polynomial, these two diagrams look a little bit not mathematically and not in any formal way, but they look a little bit like mirror images of each other. That's because when you're fitting a degree of polynomial, the left part of this curve corresponded to underfitting and high bias, the right part corresponded to overfitting and high variance.
+
+> <img src="./w03-05-Regularization_and_bias_variance/img_2023-02-03_11-54-37.png">
+
 ## Establishing a baseline level of performance
 
 ## Learning curves
