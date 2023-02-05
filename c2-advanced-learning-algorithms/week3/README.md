@@ -274,6 +274,48 @@ Now one limitation of error analysis is that it's much easier to do for problems
 
 ## Adding data
 
+Trying to get more data of all types can be slow and expensive. Instead, an alternative way of adding data might be to focus on adding more data of the types where analysis has indicated it might help. 
+
+There's another technique that's why they use especially for images and audio data that can increase your training set size significantly. This technique is called **data augmentation**.
+
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-39-13.png">
+
+Given an image we can create a new training example by rotating the image a bit, enlarging the image a bit, shrinking or by changing the contrast
+
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-39-22.png">
+
+Distorting one image can feed to the learning algorithm to learn more robust
+
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-39-29.png">
+
+For audit, you can add crowd background noise, or car noise, to simullate the speaker speaking from a car.   
+
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-39-39.png">
+
+One tip for data augmentation is that the changes or the distortions you make to the data, should be representative of the types of noise or distortions in the test set.
+
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-39-52.png">
+
+There's one of the techniques which is **data synthesis** in which you make up brand new examples from scratch. Not by modifying an existing example but by creating brand new examples.
+
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-40-00.png">
+
+> <!--img src="./w03-12-Adding_data/img_2023-02-05_09-40-06.png"-->
+
+
+So one way to create artificial data for this task is if you go to your computer's text editor
+ 
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-40-11.png">
+
+And screenshot tetx editors using different colors and different contrasts and very different fonts and you get synthetic data like that on the right.
+
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-40-13.png">
+
+Algorithm we have access to linear regression, logistic regression, neural networks, also decision trees are very good today and will work well for many applications. And so sometimes it can be more fruitful to spend more of your time taking a data centric approach in which you focus on engineering the data used by your algorithm
+
+> <img src="./w03-12-Adding_data/img_2023-02-05_09-40-25.png">
+
+
 ## Transfer learning: using data from a different task
 
 ## Full cycle of a machine learning project
