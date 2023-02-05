@@ -318,6 +318,38 @@ Algorithm we have access to linear regression, logistic regression, neural netwo
 
 ## Transfer learning: using data from a different task
 
+
+Let's say you want to recognize the handwritten digits from zero through nine but you don't have that much labeled data of these handwritten digits
+
+Say you find a very large datasets of one million images of pictures of cats, dogs, cars, people, and so on, a thousand classes. You can then start by training a neural network on this large dataset of a million images with a thousand different classes and train the algorithm to take as input an image X, and learn to recognize any of these 1,000 different classes.
+
+But for the last layer, you would eliminate the output layer and replace it with a much smaller output layer with just 10 rather than 1,000 output units. These 10 output units will correspond to the classes zero, one, through nine that you want your neural network to recognize. 
+
+In detail, there are two options for how you can train this neural networks parameters:
+- option 1 is you only train the output layers parameters
+- Option 2 would be to train all the parameters in the network 
+
+If you have a very small training set then Option 1 might work a little bit better, but if you have a training set that's a little bit larger then Option 2 might work a little bit bette
+
+
+These two steps are called : 
+- supervised pre-training, first step of first training on a large dataset
+- fine tuning where you take the parameters that you had initialized or gotten from supervised pre-training and then run gradient descent further to fine tune the weights to suit the specific application
+
+
+> <img src="./images/w03-13-Transfer_learning:_using_data_from_a_different_task/img_2023-02-05_10-04-13.png">
+
+Learning on detecting lots of different images (dogs, car, etc), you're teaching the neural network to detect edges, corners, and basic shapes. This is useful for many other computer vision tasks
+
+> <img src="./images/w03-13-Transfer_learning:_using_data_from_a_different_task/img_2023-02-05_10-04-24.png">
+
+I'd sometimes train neural networks on as few as 50 images that were quite well using this technique, when it has already been pre-trained on a much larger dataset. 
+
+**GPT-3** or BERTs or neural networks pre-trained on ImageNet, are actually examples of neural networks that they have someone else's pre-trained on a very large image datasets or text dataset, they can then be fine tuned on other applications 
+
+> <img src="./images/w03-13-Transfer_learning:_using_data_from_a_different_task/img_2023-02-05_10-04-36.png">
+
+
 ## Full cycle of a machine learning project
 
 ## Fairness, bias, and ethics
