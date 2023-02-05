@@ -251,6 +251,27 @@ Depending of diagnostics, you change the architecture, and continue the loop
 
 ## Error analysis
 
+
+The error analysis process just refers to manually looking through these 100 examples and trying to gain insights into where the algorithm is going wrong. Pharmaceutical spam and emails trying to steal passwords or phishing emails seem to be huge problems whereas deliberate misspellings
+
+If you have a large cross validation of 5,000 example and if the algorithm misclassified 1,000 of them then you may often sample randomly a subset of 100 that you can analyse in a reasonable amount of time and get enough statistics about whether the most common types of errors and therefore where maybe most fruitful to focus your attention. After this analysis, if you find that a lot of errors are pharmaceutical spam emails then this might give you some ideas or inspiration for things to do next. 
+
+> <img src="./w03-11-Error_analysis/img_2023-02-03_18-41-41.png">
+
+
+Based on our error analysis in the example more sophisticated email features could help but only a bit whereas more sophisticated features to detect former spam or phishing emails could help a lot.
+
+Instead of collecting more data but not more data of everything, we may focus on data of pharmaceutical spam emails (specific names of pharmaceutical product)
+
+
+> <img src="./w03-11-Error_analysis/img_2023-02-03_18-54-42.png">
+
+Now one limitation of error analysis is that it's much easier to do for problems that humans are good at. You can look at the email and say you think is a spam email. But rrror analysis can be a bit harder for tasks that even humans aren't good at 
+(predict what ads someone will click on on the website)
+
+> <img src="./w03-11-Error_analysis/img_2023-02-03_18-46-10.png">
+
+
 ## Adding data
 
 ## Transfer learning: using data from a different task
