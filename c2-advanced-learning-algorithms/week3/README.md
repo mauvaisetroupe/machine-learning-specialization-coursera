@@ -352,10 +352,23 @@ I'd sometimes train neural networks on as few as 50 images that were quite well 
 
 ## Full cycle of a machine learning project
 
+> <img src="./images/w03-14-Full_cycle_of_a_machine_learning_project/img_2023-02-05_10-21-31.png">
+
+There is a growing field in machine learning called (MLOps Machine Learning Operations). 
+This refers to the practice of how to systematically build and deploy and maintain machine learning systems (reliability, scalability, monitoring, but also the opportunity to make **updates** to the model as appropriate to keep it running well)
+
+> <img src="./images/w03-14-Full_cycle_of_a_machine_learning_project/img_2023-02-05_10-21-46.png">
+
+
 ## Fairness, bias, and ethics
 
+> <img src="./images/w03-15-Fairness,_bias,_and_ethics/img_2023-02-05_10-27-43.png">
 
+> <img src="./images/w03-15-Fairness,_bias,_and_ethics/img_2023-02-05_10-27-47.png">
 
+> <img src="./images/w03-15-Fairness,_bias,_and_ethics/img_2023-02-05_10-28-09.png">
+
+> <img src="./images/w03-15-Fairness,_bias,_and_ethics/img_2023-02-05_10-28-26.png">
 
 # Practice quiz: Machine learning development process
 
