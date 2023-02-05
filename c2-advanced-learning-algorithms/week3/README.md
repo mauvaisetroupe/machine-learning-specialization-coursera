@@ -389,8 +389,18 @@ Computing both precision and recall makes it easier to spot if an algorithm is b
 
 ## Trading off precision and recall
 
+By raising this threshold to 0.7, precision is high, but recall is low. 
+With a threshold of 0.3, we decrease precision but increase recalls
 
+> <img src="./images/w03-17-Trading_off_precision_and_recall/img_2023-02-05_18-59-38.png">
 
+One challenge with precision recall is you're now evaluating your algorithms using two different metrics
+There is another metric called the F1 (also called harmonic mean) score that combines precision and recall to help picking the best value or the best trade-off between the two. 
 
+Taking average or recall (R) and precisions (P) doesn't work well (could select algorithm with really bad P or R)
+
+F1 score, and the F1 score is a way of combining P and R precision and recall but that gives more emphasis to whichever of these values is lower
+
+> <img src="./images/w03-17-Trading_off_precision_and_recall/img_2023-02-05_19-00-07.png">
 
 # Practice Lab: Advice for Applying Machine Learning
