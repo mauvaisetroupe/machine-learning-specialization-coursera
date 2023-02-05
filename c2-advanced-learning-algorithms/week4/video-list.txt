@@ -1,0 +1,13 @@
+w04-01-Decision_tree_model
+w04-02-Learning_Process
+w04-03-Measuring_purity
+w04-04-Choosing_a_split_Information_Gain
+w04-05-Putting_it_together
+w04-06-Using_one-hot_encoding_of_categorical_features
+w04-07-Continuous_valued_features
+w04-08-Regression_Trees
+w04-09-Using_multiple_decision_trees
+w04-10-Sampling_with_replacement
+w04-11-Random_forest_algorithm
+w04-12-XGBoost
+w04-13-When_to_use_decision_trees
