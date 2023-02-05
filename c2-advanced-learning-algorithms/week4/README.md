@@ -25,9 +25,28 @@ Among these different decision trees, some will do better and some will do worse
 
 ## Learning Process
 
+One nodes is completely **pure**, when there's no longer a mix of cats and dogs 
 
+> <img src="./images/w04-02-Learning_Process/img_2023-02-05_20-59-07.png">
 
+At the root node, as well as on the left branch and the right branch of the decision tree, we had to decide if there were a few examples at that node comprising a mix of cats and dogs. That decision should maximize purity. By purity, I mean, you want to get to what subsets, which are as close as possible to all cats or all dogs. 
 
+Because it is if you can get to a highly pure subsets of examples, then you can either predict cat or predict not cat and get it mostly right. 
+
+> <img src="./images/w04-02-Learning_Process/img_2023-02-05_20-59-25.png">
+
+If you had decided that the maximum depth of the decision, then you would decide not to split any nodes below this level for 2 reasons:
+- make sure the tree doesn't get too big and unwieldy 
+- it makes it less prone to overfitting
+
+> <img src="./images/w04-02-Learning_Process/img_2023-02-05_20-59-41.png">
+
+We stop if purity improvement is below a threshold, or if number of examples is below a threshold
+
+> <img src="./images/w04-02-Learning_Process/img_2023-02-05_21-00-02.png">
+
+It could ssem complicated, but these different pieces fit together into a very effective learning algorithm.
+Open source packages can help so in the complicated procedure for making all these decisions, like how do I decide to stop splitting
 
 # Practice quiz: Decision trees
 
@@ -36,6 +55,8 @@ Among these different decision trees, some will do better and some will do worse
 # Decision trees learning
 
 ## Measuring purity
+
+Entropy is a measure of the impurity of a set of data
 
 ## Choosing a split: Information Gain
 
