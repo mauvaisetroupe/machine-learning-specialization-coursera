@@ -372,12 +372,20 @@ This refers to the practice of how to systematically build and deploy and mainta
 
 # Practice quiz: Machine learning development process
 
-
-
-
 # Skewed dataset (Optional)
 
 ## Error metrics for skewed datasets
+
+An algorithm that predicts y equals 0 all the time will actually have 99.5 percent accuracy or 0.5 percent error
+
+> <img src="./images/w03-16-Error_metrics_for_skewed_datasets/img_2023-02-05_10-35-15.png">
+
+Computing both precision and recall makes it easier to spot if an algorithm is both reasonably accurate :
+- Precision : When algorithm says a patient has a disease, there's a good chance the patient has a disease (0.75)
+- Recall : Algorithm is helping to diagnose a reasonable fraction of them that have the desease (0.60)
+
+> <img src="./images/w03-16-Error_metrics_for_skewed_datasets/img_2023-02-05_10-36-16.png">
+
 
 ## Trading off precision and recall
 
