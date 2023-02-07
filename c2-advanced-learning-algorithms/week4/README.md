@@ -156,6 +156,7 @@ The term replacement means we choose one token in the bag, put that token back i
 We build a training set using sampling with replacement
 > <img src="./images/w04-10-Sampling_with_replacement/img_2023-02-07_21-30-06.png">
 
+That is part of the sampling with replacement procedure. The process of sampling with replacement, lets you construct a new training set that's a little bit similar to, but also pretty different from your original training set. This is the key building block for building an ensemble of trees.
 
 ## Random forest algorithm
 
