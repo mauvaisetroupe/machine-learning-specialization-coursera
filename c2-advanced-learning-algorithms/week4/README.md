@@ -150,6 +150,13 @@ The majority votes of the predictions among these three trees
 
 ## Sampling with replacement
 
+The term replacement means we choose one token in the bag, put that token back in the bag
+> <img src="./images/w04-10-Sampling_with_replacement/img_2023-02-07_21-29-13.png">
+
+We build a training set using sampling with replacement
+> <img src="./images/w04-10-Sampling_with_replacement/img_2023-02-07_21-30-06.png">
+
+
 ## Random forest algorithm
 
 ## XGBoost
