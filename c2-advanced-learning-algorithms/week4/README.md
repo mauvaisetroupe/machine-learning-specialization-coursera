@@ -137,6 +137,17 @@ We calculate the entropy for different threshold
 
 ## Using multiple decision trees
 
+One of the weaknesses of using a single decision tree is that that decision tree can be highly sensitive to small changes in the data. 
+The fact that changing just one training example causes the algorithm to come up with a different split at the root and therefore a totally different tree, that makes this algorithm just not that robust.
+
+> <img src="./images/w04-09-Using_multiple_decision_trees/img_2023-02-07_21-20-15.png">
+
+
+The majority votes of the predictions among these three trees
+
+> <img src="./images/w04-09-Using_multiple_decision_trees/img_2023-02-07_21-21-22.png">
+
+
 ## Sampling with replacement
 
 ## Random forest algorithm
