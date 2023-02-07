@@ -58,11 +58,54 @@ Open source packages can help so in the complicated procedure for making all the
 
 Entropy is a measure of the impurity of a set of data
 
+> <img src="./images/w04-03-Measuring_purity/img_2023-02-07_16-15-53.png">
+
+Note that :
+- entropy function is define with $log_2$ (base 2)
+- log(0) is technically undefined, it's actually negative infinity, but by convention for the purposes of computing entropy, we'll take 0*log(0)
+- definition of entropy looks a like the definition of the logistic loss (mathematical rationale not seen here)
+- entropy could be replaced by **gini criteria**
+
+> <img src="./images/w04-03-Measuring_purity/img_2023-02-07_16-18-08.png">
+
 ## Choosing a split: Information Gain
+
+At the root node, we have started off with all 10 examples, with five cats and dogs, and so at the root node, we had $p_1$ equals 5/10
+This formula, is called **information gain**, and it measures the reduction in entropy 
+
+> <img src="./images/w04-04-Choosing_a_split_Information_Gain/img_2023-02-07_16-48-57.png">
+
+A more formal definition is:
+
+> <img src="./images/w04-04-Choosing_a_split_Information_Gain/img_2023-02-07_16-50-46.png">
+
 
 ## Putting it together
 
+> <img src="./images/w04-05-Putting_it_together/img_2023-02-07_16-53-28.png">
+
+The way we built the right subtree was by, again, building a decision tree on a subset of five examples. In computer science, this is an example of a recursive algorithm. 
+
+> <img src="./images/w04-05-Putting_it_together/img_2023-02-07_16-55-07.png">
+
 ## Using one-hot encoding of categorical features
+
+When we have a feature with three possible values instead of just two possible values you can create a three subsets of the data and end up building three sub branches for this tree.
+
+> <img src="./images/w04-06-Using_one-hot_encoding_of_categorical_features/img_2023-02-07_18-23-16.png">
+
+But there is a different way of addressing features that can take on more than two values, which is to use the **one-hot encoding**. 
+
+> <img src="./images/w04-06-Using_one-hot_encoding_of_categorical_features/img_2023-02-07_18-24-08.png">
+
+In our exemple
+
+> <img src="./images/w04-06-Using_one-hot_encoding_of_categorical_features/img_2023-02-07_18-24-36.png">
+
+The idea of using one-hot encodings to encode categorical features also works for training neural networks. In particular if you were to take the face shape feature and replace round and not round with 1 and 0, etc.
+
+> <img src="./images/w04-06-Using_one-hot_encoding_of_categorical_features/img_2023-02-07_18-25-40.png">
+
 
 ## Continuous valued features
 
