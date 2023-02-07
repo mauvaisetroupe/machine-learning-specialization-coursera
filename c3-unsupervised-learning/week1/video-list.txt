@@ -1,0 +1,13 @@
+w01-01-Welcome
+w01-02-What_is_clustering
+w01-03-K-means_intuition
+w01-04-K-means_algorithm
+w01-05-Optimization_objective
+w01-06-Initializing_K-means
+w01-07-Choosing_the_number_of_clusters
+w01-08-Finding_unusual_events
+w01-09-Gaussian_(normal)_distribution
+w01-10-Anomaly_detection_algorithm
+w01-11-Developing_and_evaluating_an_anomaly_detection_system
+w01-12-Anomaly_detection_vs._supervised_learning
+w01-13-Choosing_what_features_to_use
