@@ -4,6 +4,7 @@ This week, you will learn two key unsupervised learning algorithms: clustering a
 
 ## Welcome!
 
+> <img src="./images/w01-01-Welcome/img_2023-02-07_22-31-22.png">
 
 
 
