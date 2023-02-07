@@ -118,6 +118,13 @@ We calculate the entropy for different threshold
 
 ## Regression Trees (optional)
 
+> <img src="./images/w04-08-Regression_Trees/img_2023-02-07_18-35-57.png">
+
+> <img src="./images/w04-08-Regression_Trees/img_2023-02-07_18-37-45.png">
+
+> <img src="./images/w04-08-Regression_Trees/img_2023-02-07_18-44-05.png">
+
+
 ## Optional Lab: Decision Trees
 
 
