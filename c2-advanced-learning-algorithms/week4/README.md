@@ -160,7 +160,27 @@ That is part of the sampling with replacement procedure. The process of sampling
 
 ## Random forest algorithm
 
+Typical choice of capital B the number of such trees you built might be around a 100 
+Having built an ensemble of B different trees, these trees all votes on the correct final prediction
+
+> <img src="./images/w04-11-Random_forest_algorithm/img_2023-02-07_21-38-42.png">
+
+It's not uncommon that for many or even all capital B training sets, you end up with the same choice of feature at the root node and at a few of the notes near the root note. This new algotithm called **random Forest algorithm** is much more robust than just a single decision tree
+
+> <img src="./images/w04-11-Random_forest_algorithm/img_2023-02-07_21-42-18.png">
+
+
 ## XGBoost
+
+And one of the innovations in XGBoost is that it also has built in regularization to prevent overfitting.
+
+XGBoost is often a highly competitive algorithm. In fact XGBoost and deep learning algorithms seem to be the two types of algorithms that win a lot of competitions (like competition Kaggle)
+
+> <img src="./images/w04-12-XGBoost/img_2023-02-07_21-47-43.png">
+
+The details of XGBoost are quite complex to implement, which is why many practitioners will use the open source libraries that implement XGBoost.
+
+> <img src="./images/w04-12-XGBoost/img_2023-02-07_21-51-25.png">
 
 ## When to use decision trees
 
