@@ -184,8 +184,9 @@ The details of XGBoost are quite complex to implement, which is why many practit
 
 ## When to use decision trees
 
-## Optional Lab: Tree Ensembles
+> <img src="./images/w04-13-When_to_use_decision_trees/img_2023-02-07_22-04-53.png">
 
+## Optional Lab: Tree Ensembles
 
 
 # Practice quiz: Tree ensembles
