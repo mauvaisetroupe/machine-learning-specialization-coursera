@@ -17,3 +17,7 @@ This week, you'll learn how to train your model in TensorFlow, and also learn ab
 [Week 3 - Advice for applying machine learning](./week3/README.md)
 
 This week you'll learn best practices for training and evaluating your learning algorithms to improve performance. This will cover a wide range of useful advice about the machine learning lifecycle, tuning your model, and also improving your training data.
+
+[Week 4 - Decision trees](./week4/README.md)
+
+This week, you'll learn about a practical and very commonly used learning algorithm the decision tree. You'll also learn about variations of the decision tree, including random forests and boosted trees (XGBoost).
