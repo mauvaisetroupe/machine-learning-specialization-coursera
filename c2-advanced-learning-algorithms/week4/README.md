@@ -109,6 +109,13 @@ The idea of using one-hot encodings to encode categorical features also works fo
 
 ## Continuous valued features
 
+> <img src="./images/w04-07-Continuous_valued_features/img_2023-02-07_18-32-32.png">
+
+We calculate the entropy for different threshold
+
+> <img src="./images/w04-07-Continuous_valued_features/img_2023-02-07_18-32-41.png">
+
+
 ## Regression Trees (optional)
 
 ## Optional Lab: Decision Trees
