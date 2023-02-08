@@ -1,0 +1,15 @@
+w02-01-Making_recommendations
+w02-02-Using_per-item_features
+w02-03-Collaborative_filtering_algorithm
+w02-04-Binary_labels_favs,_likes_and_clicks
+w02-05-Mean_normalization
+w02-06-TensorFlow_implementation_of_collaborative_filtering
+w02-07-Finding_related_items
+w02-08-Collaborative_filtering_vs_Content-based_filtering
+w02-09-Deep_learning_for_content-based_filtering
+w02-10-Recommending_from_a_large_catalogue
+w02-11-Ethical_use_of_recommender_systems
+w02-12-TensorFlow_implementation_of_content-based_filtering
+w02-13-Reducing_the_number_of_features
+w02-14-PCA_algorithm
+w02-15-PCA_in_code
