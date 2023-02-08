@@ -55,12 +55,15 @@ When you implement this algorithm, you find that it's actually a little bit more
 
 Each of these x values are vectors with n numbers in them if you have n features
 
-> <img src="./images/w01-04-K-means_algorithm/img_2023-02-08_09-40-01.png">
-
-
 If a cluster has zero training examples assigned to it:
 - the most common thing to do is to just eliminate that cluster
 - an alternative would be to just randomly reinitialize that cluster centroid
+
+> <img src="./images/w01-04-K-means_algorithm/img_2023-02-08_09-40-01.png">
+
+K-means is also frequently applied to data sets where the clusters are not that well separated
+
+> <img src="./images/w01-04-K-means_algorithm/img_2023-02-08_13-01-47.png">
 
 
 ## Optimization objective
