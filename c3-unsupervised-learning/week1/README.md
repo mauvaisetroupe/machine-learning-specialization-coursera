@@ -69,12 +69,12 @@ K-means is also frequently applied to data sets where the clusters are not that 
 ## Optimization objective
 
 The cost function J is a function of :
-- $c^{<1>}$, ... $c^{<m>}$ the indexes of cluster chosen for each point $x^{<i>}$
+- $c^{<1>}$, ... $c^{<m>}$ the indexes of cluster chosen for each point $x^{i}$
 - $\mu_1$, ...  $\mu_k$ the centers of the clusters
 
 > <img src="./images/w01-05-Optimization_objective/img_2023-02-08_14-04-34.png">
 
-The cost function is the average of squared distance between every training example $x^{<i>}$ and $\mu_{c(i)}$ the location of the cluster centroid to which the training example has been assigned
+The cost function is the average of squared distance between every training example $x^{i}$ and $\mu_{c(i)}$ the location of the cluster centroid to which the training example has been assigned
 
 The K means algorithm is trying to find assignments of points of clusters centroid as well as find locations of clusters centroid that minimizes the squared distance
 
