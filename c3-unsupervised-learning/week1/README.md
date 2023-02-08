@@ -196,6 +196,24 @@ Examples
 
 ## Developing and evaluating an anomaly detection system
 
+When you are developing a learning algorithm, making decisions on choosing different features or trying different values of the parameters, is much easier if you have a way of evaluating the learning algorithm, computing a number that tells you if the algorithm got better or worse 
+
+> <img src="./images/w01-11-Developing_and_evaluating_an_anomaly_detection_system/img_2023-02-08_18-23-33.png">
+
+Note that is unsupervised algotithm because you train the model without having label of anomaly = yes/no
+But having a small number of anomalies to evaluating nad tuning  algorithm is helpful 
+
+Cross-validation set is uded to tune $\epsilon$ and tunes needed features $x_j$
+
+Because the number of flawed engines is so small there's one other alternative, which is to not use a test set, and keep only training set and a cross-validation set
+
+> <img src="./images/w01-11-Developing_and_evaluating_an_anomaly_detection_system/img_2023-02-08_18-24-09.png">
+
+Associated algoritm :
+
+> <img src="./images/w01-11-Developing_and_evaluating_an_anomaly_detection_system/img_2023-02-08_18-24-41.png">
+
+
 ## Anomaly detection vs. supervised learning
 
 ## Choosing what features to use
