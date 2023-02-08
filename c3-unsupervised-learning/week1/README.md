@@ -68,6 +68,39 @@ K-means is also frequently applied to data sets where the clusters are not that 
 
 ## Optimization objective
 
+The cost function J is a function of :
+- $c^{<1>}$, ... $c^{<m>}$ the indexes of cluster chosen for each point $x^{<i>}$
+- $\mu_1$, ...  $\mu_k$ the centers of the clusters
+
+> <img src="./images/w01-05-Optimization_objective/img_2023-02-08_14-04-34.png">
+
+The cost function is the average of squared distance between every training example $x^{<i>}$ and $\mu_{c(i)}$ the location of the cluster centroid to which the training example has been assigned
+
+The K means algorithm is trying to find assignments of points of clusters centroid as well as find locations of clusters centroid that minimizes the squared distance
+
+And what they will do on every step is try to update 
+- the cluster assignments 
+- the positions of the cluster centralism, 
+in order to keep on reducing this cost function J
+
+> <img src="./images/w01-05-Optimization_objective/img_2023-02-08_14-06-27.png">
+
+By the way, this cost function J is called the distortion function 
+
+> <img src="./images/w01-05-Optimization_objective/img_2023-02-08_14-06-56.png">
+
+Let's now take a deeper look at the algorithm 
+- The first part update C1 through CM to minimize the cost function J as much as possible while holding $\mu$ fixes. 
+- Tnd second part, C1 through CM are fix, we update $\mu{1}$, $\mu{k}$ to minimize the cost function or the distortion as much as possible.
+
+> <img src="./images/w01-05-Optimization_objective/img_2023-02-08_14-41-27.png">
+
+How moving the centroid decreases the average of distances
+
+> <img src="./images/w01-05-Optimization_objective/img_2023-02-08_14-44-00.png">
+
+The distortion cost function should go down or stay the same in the worst case (if it goes up, that means there's a bug in the code)
+
 ## Initializing K-means
 
 ## Choosing the number of clusters
