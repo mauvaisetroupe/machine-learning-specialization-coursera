@@ -31,6 +31,21 @@ Exemple of applications
 
 ## K-means intuition
 
+- STEP 0 : randomly pick two points,which I've shown here as a red cross and the blue cross, at where might be the centers of two different clusters.
+- STEP 1 : Go through each of these points and look at whether it is closer to the red cross or to the blue cross. 
+
+> <img src="./images/w01-03-K-means_intuition/img_2023-02-08_09-15-48.png">
+
+- STEP 2 : Move the red cross to whatever is the average location of the red dots, that is the red cluster centroid will move here. 
+
+> <img src="./images/w01-03-K-means_intuition/img_2023-02-08_09-16-37.png">
+> <img src="./images/w01-03-K-means_intuition/img_2023-02-08_09-17-44.png">
+
+Keep on repeating these two steps, until ther are no more changes
+
+> <img src="./images/w01-03-K-means_intuition/img_2023-02-08_09-24-36.png">
+
+
 ## K-means algorithm
 
 ## Optimization objective
