@@ -226,6 +226,24 @@ Other examples
 
 ## Choosing what features to use
 
+Carefully choosing the features, is even more important for anomaly detection, than for supervised learning approaches. 
+
+For non gaussian, distribution, try to transform the feauture to have a gaussian distribution. In practice, try different values of C, and then try to take a look to pick one that looks better in terms of making the distribution more Gaussian
+
+> <img src="./images/w01-13-Choosing_what_features_to_use/img_2023-02-08_20-09-58.png">
+> <img src="./images/w01-13-Choosing_what_features_to_use/img_2023-02-08_20-12-04.png">
+
+The process is to train the model and then to see what anomalies in the cross validation set the algorithm is failing to detect. 
+And then to look at those examples to see if that can inspire the creation of new features that would allow the algorithm to spot.
+
+> <img src="./images/w01-13-Choosing_what_features_to_use/img_2023-02-08_20-16-42.png">
+
+Other example of creating a new feature with combination of two existing. 
+- high CPU is not anormal
+- low network trafic is not alornmal
+- but high CPU with low trafic is maybe anormal 
+
+> <img src="./images/w01-13-Choosing_what_features_to_use/img_2023-02-08_20-20-12.png">
 
 
 # Practice Quiz - Anomaly detection
