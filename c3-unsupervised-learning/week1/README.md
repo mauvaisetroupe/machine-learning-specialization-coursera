@@ -48,6 +48,21 @@ Keep on repeating these two steps, until ther are no more changes
 
 ## K-means algorithm
 
+When you implement this algorithm, you find that it's actually a little bit more convenient to minimize the squared distance because the cluster centroid with the smallest square distance should be the same as the cluster centroid with the smallest distance. 
+
+
+> <img src="./images/w01-04-K-means_algorithm/img_2023-02-08_09-37-43.png">
+
+Each of these x values are vectors with n numbers in them if you have n features
+
+> <img src="./images/w01-04-K-means_algorithm/img_2023-02-08_09-40-01.png">
+
+
+If a cluster has zero training examples assigned to it:
+- the most common thing to do is to just eliminate that cluster
+- an alternative would be to just randomly reinitialize that cluster centroid
+
+
 ## Optimization objective
 
 ## Initializing K-means
