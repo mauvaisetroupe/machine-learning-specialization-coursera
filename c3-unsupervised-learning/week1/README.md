@@ -163,6 +163,23 @@ Anomaly detections examples
 
 ## Gaussian (normal) distribution
 
+
+This curve here shows what is p(x) or the probability of x. 
+This curve is qualified as the bell-shaped curve.
+
+If you're wondering what does p(x) really means, here's one way to interpret it. If uou get 100 numbers drawn from this probability distribution, and you were to plot a histogram like below. And if you go from 100 to an infinite number of examples, the histogram would ends up with this bell-shaped curve.
+
+> <img src="./images/w01-09-Gaussian_normal_distribution/img_2023-02-08_17-36-47.png">
+
+Probabilities always have to sum up to one, so that's why the area under the curve is always equal to one, which is why when the Gaussian distribution becomes skinnier, it has to become taller as well
+
+> <img src="./images/w01-09-Gaussian_normal_distribution/img_2023-02-08_17-41-55.png">
+
+How you calculate standard deviation $\sigma$, variance $\sigma^2$ and the mean $\mu$
+
+> <img src="./images/w01-09-Gaussian_normal_distribution/img_2023-02-08_17-45-33.png">
+
+
 ## Anomaly detection algorithm
 
 ## Developing and evaluating an anomaly detection system
