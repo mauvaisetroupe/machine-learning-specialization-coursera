@@ -12,6 +12,23 @@ This week, you will learn two key unsupervised learning algorithms: clustering a
 
 ## What is clustering?
 
+A clustering algorithm looks at a number of data points and automatically finds data points that are related or similar to each other.
+
+In supervised learning, the dataset included both the inputs x as well as the target outputs y.
+
+> <img src="./images/w01-02-What_is_clustering/img_2023-02-08_09-05-35.png">
+
+In contrast, in unsupervised learning, you are given a dataset but not the the target labels y. 
+
+Instead, we're going to ask the algorithm to find something interesting about the data, and in particular for algorithm called clustering algorithm, we look if the dataset can be grouped into clusters, meaning groups of points that are similar to each other.
+
+> <img src="./images/w01-02-What_is_clustering/img_2023-02-08_09-09-54.png">
+
+Exemple of applications
+
+> <img src="./images/w01-02-What_is_clustering/img_2023-02-08_09-10-36.png">
+
+
 ## K-means intuition
 
 ## K-means algorithm
