@@ -122,6 +122,21 @@ More formally, here is the algorithm if you want to rank multiple times using di
 
 ## Choosing the number of clusters
 
+There are lots of applications where the data itself does not give a clear indicator for how many clusters there are in it.
+
+> <img src="./images/w01-07-Choosing_the_number_of_clusters/img_2023-02-08_16-39-34.png">
+
+If you look at the academic literature on K-means, there are a few techniques to try to automatically choose the number of clusters to use for a certain application. One way to try to choose the value of K is called the elbow method (not used by Andrew personnally)
+
+For a lot of applications, the right number of clusters is truly ambiguous to find that, because a lot of cost functions just decreases smoothly and it doesn't have a clear elbow 
+
+> <img src="./images/w01-07-Choosing_the_number_of_clusters/img_2023-02-08_16-45-54.png">
+
+Both of these are completely valid and completely fine groupings of the data into clusters, but whether you want to use three clusters or five clusters can now be decided based on what makes sense for your t-shirt business. 
+
+> <img src="./images/w01-07-Choosing_the_number_of_clusters/img_2023-02-08_16-46-50.png">
+
+
 
 
 
