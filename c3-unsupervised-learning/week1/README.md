@@ -216,6 +216,14 @@ Associated algoritm :
 
 ## Anomaly detection vs. supervised learning
 
+When should you use anomaly detection and when should you use supervised learning? The decision is actually quite subtle in some applications.
+
+> <img src="./images/w01-12-Anomaly_detection_vs._supervised_learning/img_2023-02-08_19-59-49.png">
+
+Other examples
+
+> <img src="./images/w01-12-Anomaly_detection_vs._supervised_learning/img_2023-02-08_20-00-54.png">
+
 ## Choosing what features to use
 
 
