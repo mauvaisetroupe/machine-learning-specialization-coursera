@@ -103,6 +103,23 @@ The distortion cost function should go down or stay the same in the worst case (
 
 ## Initializing K-means
 
+The very first step of the K means clustering algorithm, was to choose random locations as the initial guesses for the cluster centroids 
+
+> <img src="./images/w01-06-Initializing_K-means/img_2023-02-08_14-51-53.png">
+
+Depending on how you choose the initail random centroid of the clusters, you end up with different data sets.
+But with this less fortunate choice of random initialization, that gets stuck in a local minimum.
+
+> <img src="./images/w01-06-Initializing_K-means/img_2023-02-08_14-54-12.png">
+
+The solution is to run it multiple times and then to try to find the best local optima.
+
+> <img src="./images/w01-06-Initializing_K-means/img_2023-02-08_15-01-53.png">
+
+More formally, here is the algorithm if you want to rank multiple times using different random initialization
+
+> <img src="./images/w01-06-Initializing_K-means/img_2023-02-08_16-26-11.png">
+
 ## Choosing the number of clusters
 
 
