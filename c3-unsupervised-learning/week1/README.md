@@ -182,6 +182,18 @@ How you calculate standard deviation $\sigma$, variance $\sigma^2$ and the mean 
 
 ## Anomaly detection algorithm
 
+We calculate p(x) as the p(x1) x p(x2) X ... , P(xn). If you've taken an advanced class in probability and statistics before, you may recognize that this equation corresponds to assuming that the features x1, x2, ... xm are statistically independent. But this algorithm often works fine even that the features are not actually statistically independent.
+
+> <img src="./images/w01-10-Anomaly_detection_algorithm/img_2023-02-08_18-10-40.png">
+
+If 1 or more of the features are either very large or very small relative to what it has seen in the training set, then P($x_j$) is very small and then the product is very small
+
+> <img src="./images/w01-10-Anomaly_detection_algorithm/img_2023-02-08_18-13-49.png">
+
+Examples 
+
+> <img src="./images/w01-10-Anomaly_detection_algorithm/img_2023-02-08_18-19-20.png">
+
 ## Developing and evaluating an anomaly detection system
 
 ## Anomaly detection vs. supervised learning
