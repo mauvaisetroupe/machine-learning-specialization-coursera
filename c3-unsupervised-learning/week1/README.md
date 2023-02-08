@@ -151,6 +151,16 @@ Both of these are completely valid and completely fine groupings of the data int
 
 ## Finding unusual events
 
+> <img src="./images/w01-08-Finding_unusual_events/img_2023-02-08_16-54-52.png">
+
+The most common way to carry out anomaly detection is through a technique called density estimation.
+
+> <img src="./images/w01-08-Finding_unusual_events/img_2023-02-08_16-58-04.png">
+
+Anomaly detections examples
+
+> <img src="./images/w01-08-Finding_unusual_events/img_2023-02-08_16-59-05.png">
+
 ## Gaussian (normal) distribution
 
 ## Anomaly detection algorithm
