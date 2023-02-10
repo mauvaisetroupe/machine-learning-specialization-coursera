@@ -111,6 +111,33 @@ With that modification, by default, algorithm predict the mean of rating on the 
 
 ## TensorFlow implementation of collaborative filtering
 
+TensorFlow is a tool for building neural network, but TensorFlow can also be very hopeful for building other types of learning algorithms as well like the collaborative filtering algorithm. 
+
+TensorFlow is helpful to implement gradient descent, it can automatically figure out what are the derivatives of the cost function. All you have to do is implement the cost function and without needing to know any calculus, without needing to take derivatives yourself, you can get TensorFlow with just a few lines of code to compute that derivative term, that can be used to optimize the cost function. 
+
+Sometimes computing this derivative or partial derivative term can be difficult. And it turns out that TensorFlow can help with that. 
+
+> <img src="./images/w02-06-TensorFlow_implementation_of_collaborative_filtering/img_2023-02-10_17-10-02.png">
+
+
+For simplification, we take :
+- b = 0, so $f_w(x) = wx$
+- only one training example, so cost function has only one term  
+
+So this procedure allows you to implement gradient descent without computing this derivative term df/dw 
+
+This is a very powerful feature of TensorFlow called [Auto Diff](../../c2-advanced-learning-algorithms/week2/README.md#larger-neural-network-example-optional). And some other machine learning packages like pytorch also support Auto Diff
+
+Sometimes you hear people call this Auto Grad. The technically correct term is Auto Diff, and Auto Grad is actually the name of the specific software package for doing automatic differentiation
+
+You can also use a more powerful optimization algorithm, like the [adam optimization algorithm](../../c2-advanced-learning-algorithms/week2/README.md#advanced-optimization)
+
+> <img src="./images/w02-06-TensorFlow_implementation_of_collaborative_filtering/img_2023-02-10_17-39-35.png">
+
+In order to implement the collaborative filtering algorithm TensorFlow, this is the syntax you can use
+
+> <img src="./images/w02-06-TensorFlow_implementation_of_collaborative_filtering/img_2023-02-10_17-40-46.png">
+
 ## Finding related items
 
 

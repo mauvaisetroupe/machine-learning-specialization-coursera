@@ -213,7 +213,7 @@ Depending on how gradient descent is proceeding, we need to increase or decrease
 
 > <img src="./images/w02-11-Advanced_Optimization/img_2023-02-01_17-50-05.png">
 
-Use more than one Alpha
+Use more than one Alpha (Adam algorithm)
 
 > <img src="./images/w02-11-Advanced_Optimization/img_2023-02-01_17-50-53.png">
 
