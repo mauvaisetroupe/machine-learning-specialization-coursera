@@ -140,8 +140,16 @@ In order to implement the collaborative filtering algorithm TensorFlow, this is 
 
 ## Finding related items
 
+Is quite hard to interpret individualy $x_1^i$, ..., $x_n^i$, saying $x_1$ is an action movie and $x_2$ is as a foreign film and so on. 
+But nonetheless, collectively $x_1$, $x_2$, $x_3$, do convey something about what that movie is like.
 
+So if movies related to movie i, then what you can do is try to find the item k with features $x^{(k)}$ that is similar to $x^{(i)}$.
 
+> <img src="./images/w02-07-Finding_related_items/img_2023-02-10_19-02-24.png">
+
+Limitations
+
+> <img src="./images/w02-07-Finding_related_items/img_2023-02-10_19-05-42.png">
 
 # Content-based filtering
 
