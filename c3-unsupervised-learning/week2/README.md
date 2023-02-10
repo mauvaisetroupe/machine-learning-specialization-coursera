@@ -74,6 +74,24 @@ We could minimize this cost function J(w, b, x) using gradient descent.
 ## Binary labels: favs, likes and clicks
 
 
+Many applications of recommended systems involved binary labels where instead of a user giving you a rating (like instead of stars)
+
+We can generalize the rating algorithm to ninary labels.The process used to generalize the algorithm is quite similar to the approach used to go from linear regression to logistic regression
+
+> <img src="./images/w02-04-Binary_labels_favs,_likes_and_clicks/img_2023-02-10_16-34-41.png">
+
+Few examples :
+
+> <img src="./images/w02-04-Binary_labels_favs,_likes_and_clicks/img_2023-02-10_16-35-53.png">
+
+We go from linear regression to binary classification using the **logistic function**
+
+> <img src="./images/w02-04-Binary_labels_favs,_likes_and_clicks/img_2023-02-10_16-36-45.png">
+
+We go from linear regression to binary classification binary using **cross entropy cost function**  
+
+> <img src="./images/w02-04-Binary_labels_favs,_likes_and_clicks/img_2023-02-10_16-38-49.png">
+
 
 # Recommender systems implementation detail
 
