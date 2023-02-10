@@ -97,6 +97,18 @@ We go from linear regression to binary classification binary using **cross entro
 
 ## Mean normalization
 
+For linear regression, future normalization can help the algorithm run faster (scaling features in order to have same magnitude)
+
+Problem with collaborative filtering algorithm is that it predicts 0 star for all films for a new user that has not yet rated anything
+
+> <img src="./images/w02-05-Mean_normalization/img_2023-02-10_16-54-16.png">
+
+In order to correct that, we calculate the mean for all rows and substract the mean to all coefficient of the row
+
+With that modification, by default, algorithm predict the mean of rating on the same movie by other users 
+
+> <img src="./images/w02-05-Mean_normalization/img_2023-02-10_16-58-39.png">
+
 ## TensorFlow implementation of collaborative filtering
 
 ## Finding related items
