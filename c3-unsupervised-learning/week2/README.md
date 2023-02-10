@@ -37,12 +37,17 @@ If we do the same for all user, we sum the cost function over all the $n_u$ user
 
 
 We now assume we don't have any more features qualifying the movies (romance, action, etc)
+
 Now, just for the purposes of illustration, let's say we had somehow already learned parameters for the four users w1, w2, ... w4 for the 4 users and b1, ... b4 that we will ignore (equals to 0)
+
 What we have is that if you have the parameters for all four users 1, and if you have 4 ratings, you can take a reasonable guess at what lists a feature vector (x1,x2) for movie 1 that would make good predictions for these four ratings up on top
 
 By the way, notice that this works only because we have parameters for four users.
+
 That's what allows us to try to guess appropriate features, x1.
+
 This is why in a typical linear regression application if you had just a single user, you don't actually have enough information to figure out what would be the features, x1 and x2, which is why in the linear regression contexts (course 1), you can't come up with features x1 and x2 from scratch.
+
 But in collaborative filtering, is because you have ratings from multiple users of the same item with the same movie. That's what makes it possible to try to guess what are possible values for these features (not clear why...)
 
 > <img src="./images/w02-03-Collaborative_filtering_algorithm/img_2023-02-10_16-24-47.png">
