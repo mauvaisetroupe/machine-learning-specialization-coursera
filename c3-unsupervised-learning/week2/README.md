@@ -151,13 +151,63 @@ Limitations
 
 > <img src="./images/w02-07-Finding_related_items/img_2023-02-10_19-05-42.png">
 
+
+
+
 # Content-based filtering
 
 ## Collaborative filtering vs Content-based filtering
 
+Content-based filtering differ fron collaborative filtering. The algorithm consists in matching user features with movies features
+
+> <img src="./images/w02-08-Collaborative_filtering_vs_Content-based_filtering/img_2023-02-10_19-09-26.png">
+
+The process starts building a vector with user features and another with movies features
+
+> <img src="./images/w02-08-Collaborative_filtering_vs_Content-based_filtering/img_2023-02-10_19-12-35.png">
+
+The problem is that the user and movies vectors don´t have the same size. We need to find a method to obtain two vectors of same size in order to use a linear expression $w^j.x^i + b$ for user j and movie i
+
+> <img src="./images/w02-08-Collaborative_filtering_vs_Content-based_filtering/img_2023-02-10_19-51-50.png">
+
 ## Deep learning for content-based filtering
 
+The first neural network is the user network that takes as input the list of features of the user, $x_u$, then using a few layers will output a vector $v_u$ that describes the user. The output layer has 32 units
+
+Similarly, to compute $v_m$ for a movie with a movie network. 
+
+> <img src="./images/w02-09-Deep_learning_for_content-based_filtering/img_2023-02-10_22-50-30.png">
+
+Actually, we combine the two networks into a single one, using the dot operator two cobine the two outputs.
+
+> <img src="./images/w02-09-Deep_learning_for_content-based_filtering/img_2023-02-10_22-51-11.png">
+
+This can be pre-computed ahead of time, you can run a compute server overnight to go through the list of all your movies and for every movie, find similar movies to it, so that if a user comes to the website and they're browsing a specific movie, you can already have pre-computed to 10 or 20 most similar movies to show to the user at that time (important for scalability)
+
+> <img src="./images/w02-09-Deep_learning_for_content-based_filtering/img_2023-02-10_22-51-47.png">
+
+It may be worth spending some time engineering good features for this application because the algorithm can be computationally very expensive to run if you have a large catalog of a lot of different movies you may want to recommend. 
+
 ## Recommending from a large catalogue
+
+> <img src="./images/w02-10-Recommending_from_a_large_catalogue/img_2023-02-10_23-07-36.png">
+
+Step 1 : retrieve plausible movies
+- For each of the last 10 movies that the user has watched find the 10 most similar movies (can be pre computed)
+- top movies by genres
+- top movies by countries...
+
+
+> <img src="./images/w02-10-Recommending_from_a_large_catalogue/img_2023-02-10_23-08-20.png">
+
+Step 2 : do the ranking on plausible movies list
+(One additional optimization is that we can computed VM in advance for all movies) 
+
+> <img src="./images/w02-10-Recommending_from_a_large_catalogue/img_2023-02-10_23-08-47.png">
+
+Retrieval step trade-off
+
+> <img src="./images/w02-10-Recommending_from_a_large_catalogue/img_2023-02-10_23-09-16.png">
 
 ## Ethical use of recommender systems
 
