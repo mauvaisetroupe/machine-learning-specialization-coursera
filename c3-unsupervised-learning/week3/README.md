@@ -33,8 +33,18 @@ Applications examples:
 
 > <img src="./images/w03-01-What_is_Reinforcement_Learning/img_2023-02-12_09-54-56.png">
 
-
 ## Mars rover example
+
+We'll develop reinforcement learning using a simplified example inspired by the Mars rover
+
+Formalism of how a reinforcement learning application works:
+- current state S
+- action a
+- reward R(s)
+- next state S'
+
+> <img src="./images/w03-02-Mars_rover_example/img_2023-02-12_10-02-07.png">
+
 
 ## The Return in reinforcement learning
 
