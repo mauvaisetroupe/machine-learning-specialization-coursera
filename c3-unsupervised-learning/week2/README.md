@@ -211,6 +211,19 @@ Retrieval step trade-off
 
 ## Ethical use of recommender systems
 
+Many websites that are not showing you the most relevant product but the products that will generate the largest profit for the company.
+
+> <img src="./images/w02-11-Ethical_use_of_recommender_systems/img_2023-02-12_07-35-52.png">
+
+A payday loan is a short-term financial solution.
+
+> <img src="./images/w02-11-Ethical_use_of_recommender_systems/img_2023-02-12_07-39-03.png">
+
+Othe example
+
+> <img src="./images/w02-11-Ethical_use_of_recommender_systems/img_2023-02-12_07-39-44.png">
+
+
 ## TensorFlow implementation of content-based filtering
 
 
