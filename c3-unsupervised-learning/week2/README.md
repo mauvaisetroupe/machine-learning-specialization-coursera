@@ -242,6 +242,31 @@ Next, have the dot product of $V_u$ and $V_m$
 
 ## Reducing the number of features (optional)
 
+This is an algorithm that is commonly used by data scientists to visualize the data, to figure out what might be going on.
+
+> <img src="./images/w02-13-Reducing_the_number_of_features/img_2023-02-12_07-57-16.png">
+
+In both the examples we saw, only one of the two features seemed to have a meaningful degree of variation.
+
+> <img src="./images/w02-13-Reducing_the_number_of_features/img_2023-02-12_07-57-59.png">
+
+Or find a new axis, combining two different features 
+
+> <img src="./images/w02-13-Reducing_the_number_of_features/img_2023-02-12_08-01-42.png">
+
+We can for example reduce from 3D to a 2D (in that case aligned in a common plane)
+
+> <img src="./images/w02-13-Reducing_the_number_of_features/img_2023-02-12_08-03-29.png">
+
+We can reduce from 50 features to only 2 features, combining features together
+
+> <img src="./images/w02-13-Reducing_the_number_of_features/img_2023-02-12_08-04-57.png">
+
+You might find for example that $Z_1$ loosely corresponds to how big is the country and what is this total GDP, and $Z_2$ corresponds roughly to the per person GDP (Gross domestic product - PIB in French language)
+
+> <img src="./images/w02-13-Reducing_the_number_of_features/img_2023-02-12_08-06-43.png">
+
+
 ## PCA algorithm (optional)
 
 ## PCA in code (optional)
