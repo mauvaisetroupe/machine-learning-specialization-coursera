@@ -314,5 +314,34 @@ If zou need to find an approimate point that represents the original coordinates
 
 ## PCA in code (optional)
 
-## PCA and data visualization (optional)
+Here I'm assuming you want two or three axes if you want to visualize the data in 2D or 3D
+
+In **scikit-learn**, you will use the **fit** function
+
+The fit function in PCA automatically carries out mean normalization, it subtracts out the mean of each feature. So you don't need to separately perform mean normalization
+
+Optionally, use the **explained_variance_ratio** function Ato have a look at how much each of these new axes, or each of these new principal components explains the variance in your data. 
+
+Finaly, transform the data onto the new principal components (projections)
+
+> <img src="./images/w02-15-PCA_in_code/img_2023-02-12_08-46-44.png">
+
+Example : 2D -> 1D
+- explained_variance_ratio = 0.992 means PCA captures 99.2 percent of the variability or of the information in the original dataset. 
+- you obtain a 1-dimension array
+
+> <img src="./images/w02-15-PCA_in_code/img_2023-02-12_08-47-38.png">
+
+Example : 2D -> 2D
+- explained_variance_ratio, z_1 = 0.992 for first axis, and z_2 = 0.008 for second axis. z_1 + z_2 = 1. Because while this data is two-dimensional, so the two axes, Z_1 and Z_2, together they explain 100 percent of the variance in the data. 
+
+> <img src="./images/w02-15-PCA_in_code/img_2023-02-12_08-47-53.png">
+
+PCA usage, vizualization examples:
+- visualization (common usage today)
+- data compression (used fews years ago, not so much now)
+- learning model (used 10 years ago, doesnt help so much for machine learning)
+
+> <img src="./images/w02-15-PCA_in_code/img_2023-02-12_08-48-30.png">
+
 
