@@ -269,6 +269,49 @@ You might find for example that $Z_1$ loosely corresponds to how big is the coun
 
 ## PCA algorithm (optional)
 
+Preprocessing:
+- normalize to have zero-mean
+- feature scaling
+
+See [feature scaling](../../c1-supervised-ML-regression-and-classification/week2/README.md#feature-scaling-part-2)
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-20-43.png">
+
+
+These five points are quite spread apart so you're still capturing a lot of the variance in the original dataset. The projections of the data onto the z-axis is decently large
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-23-43.png">
+
+Exampele of bad axis. With this choice of z, you're capturing much less of the information in the original dataset because you've partially squish all five examples together
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-24-24.png">
+
+In the PCA algorithm, this axis is called the **principal component**.
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-25-34.png">
+
+We find the new value on the new axis using dot product (in French : produit scalaire)
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-28-04.png">
+
+If you need a second axis, you choose it perpendicular to principal component
+Idem if you need a third axis
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-29-11.png">
+
+PCA (principal component algorithm) is not linear regression algorithm (vertical progression vs. vertical direction projection)
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-30-13.png">
+
+An extreme case where PCA differs from linear regression
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-30-54.png">
+
+If zou need to find an approimate point that represents the original coordinates, you use what is called "reconstruction"
+
+> <img src="./images/w02-14-PCA_algorithm/img_2023-02-12_08-32-54.png">
+
+
 ## PCA in code (optional)
 
 ## PCA and data visualization (optional)
