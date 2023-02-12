@@ -37,6 +37,10 @@ Applications examples:
 
 We'll develop reinforcement learning using a simplified example inspired by the Mars rover
 
+Rover  can go to different places to use its sensors such as a drill, or a radar, or a spectrometer to analyze the rock at different places. In this example :
+- State 1 has a very interesting surface that scientists would like for the rover to sample. 
+- State 6 also has a pretty interesting surface, but not as interesting as state 1
+
 Formalism of how a reinforcement learning application works:
 - current state S
 - action a
