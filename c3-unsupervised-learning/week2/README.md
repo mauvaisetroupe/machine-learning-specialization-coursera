@@ -226,6 +226,15 @@ Othe example
 
 ## TensorFlow implementation of content-based filtering
 
+We use a sequential model : 
+- one for user
+- another for movies
+
+Next, we need to tell TensorFlow Keras how to feed the user features or the item features, then compute the vector $V_u$ and normalize (norm=1) to make the algorithm work better. Idem for vetor $V_m$
+
+Next, have the dot product of $V_u$ and $V_m$
+
+> <img src="./images/w02-12-TensorFlow_implementation_of_content-based_filtering/img_2023-02-12_07-50-15.png">
 
 
 
