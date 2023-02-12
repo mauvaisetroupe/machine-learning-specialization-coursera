@@ -1,0 +1,17 @@
+w03-01-What_is_Reinforcement_Learning
+w03-02-Mars_rover_example
+w03-03-The_Return_in_reinforcement_learning
+w03-04-Making_decisions_Policies_in_reinforcement_learning
+w03-05-Review_of_key_concepts
+w03-06-State-action_value_function_definition
+w03-07-State-action_value_function_example
+w03-08-Bellman_Equations
+w03-09-Random_environment
+w03-10-Example_of_continuous_state_space_applications
+w03-11-Lunar_lander
+w03-12-Learning_the_state-value_function
+w03-13-Algorithm_refinement_Improved_neural_network_architecture
+w03-14-Algorithm_refinement_E-greedy_policy
+w03-15-Algorithm_refinement_Mini-batch_and_soft_updates
+w03-16-The_state_of_reinforcement_learning
+w03-17-Summary_and_thank_You
