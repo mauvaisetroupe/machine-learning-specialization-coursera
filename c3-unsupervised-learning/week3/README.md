@@ -109,6 +109,8 @@ The term Markov in the MDP or Markov decision process refers to that the future 
 
 # State-action value function 
 
+## State-action value function definition
+
 There's something a little bit strange about this definition because how do we know what is the optimal behavior?
 
 There's almost something circular about this definition, but when we will come back later
@@ -132,12 +134,29 @@ Q function is sometimes also called the **optimal Q function**.
 
 > <img src="./images/w03-06-State-action_value_function_definition/img_2023-02-14_19-08-56.png">
 
-
-## State-action value function definition
-
 ## State-action value function example
 
+> <img src="./images/w03-07-State-action_value_function_example/img_2023-02-14_19-51-59.png">
+
 ## Bellman Equations
+
+Defintion of Bellman Equations
+
+> <img src="./images/w03-08-Bellman_Equations/img_2023-02-14_19-56-17.png">
+
+Examples :
+
+> <img src="./images/w03-08-Bellman_Equations/img_2023-02-14_20-02-32.png">
+
+
+Some explanations 
+
+> <img src="./images/w03-08-Bellman_Equations/img_2023-02-14_20-09-26.png">
+
+Explanation with example
+
+> <img src="./images/w03-08-Bellman_Equations/img_2023-02-14_20-11-32.png">
+
 
 ## Random (stochastic) environment (Optional)
 
