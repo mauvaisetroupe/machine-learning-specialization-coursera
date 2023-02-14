@@ -99,6 +99,13 @@ The goal of reinforcement learning is to find a policy $\pi(s)$ that tells you w
 
 ## Review of key concepts
 
+> <img src="./images/w03-05-Review_of_key_concepts/img_2023-02-14_19-02-37.png">
+
+This formalism of a reinforcement learning application is called a **Markov decision process** or MDP
+
+The term Markov in the MDP or Markov decision process refers to that the future only depends on the current state and not on anything that might have occurred prior to getting to the current state. In other words, in a Markov decision process, the future depends only on where you are now, not on how you got here.
+
+> <img src="./images/w03-05-Review_of_key_concepts/img_2023-02-14_19-02-52.png">
 
 
 
