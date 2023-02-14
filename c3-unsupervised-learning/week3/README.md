@@ -49,10 +49,39 @@ Formalism of how a reinforcement learning application works:
 
 > <img src="./images/w03-02-Mars_rover_example/img_2023-02-12_10-02-07.png">
 
-
 ## The Return in reinforcement learning
 
-## Making decisions: Policies in reinforcement learning
+Analogy that you might find helpful is if you imagine you have 
+- a five-dollar bill at your feet, 
+- you can walk half an hour and pick up a 10-dollar bill
+Which one would you rather go afterinforcement learning
+
+If starting from state 4 you go to the left, until state 6, you get 
+- 0 on the first step from state 4, 
+- 0 from state 3, 
+- 0 from state 2, 
+- and then 100 at state 1, the terminal state. 
+
+The return is defined as the sum of these rewards but weighted by one additional factor, which is called the **discount factor**.
+
+In many reinforcement learning algorithms, a common choice for the discount factor will be a number pretty close to 1, like 0.9, or 0.99, or even 0.999
+
+In financial applications, the discount factor also has a very natural interpretation as the interest rate or the time value of money.
+
+> <img src="./images/w03-03-The_Return_in_reinforcement_learning/img_2023-02-14_18-41-17.png">
+
+The first example corresponsd to the return if you go left :
+- return of 12.5 if starting in state 4
+- return of 25 if starting in state 3
+- etc..
+
+The second example is the same but if going always to the right 
+
+The third example is a mixt policy, you go to the left from state 2, 3 and 4, go right from state 5 
+
+> <img src="./images/w03-03-The_Return_in_reinforcement_learning/img_2023-02-14_18-42-22.png">
+
+
 
 ## Review of key concepts
 
