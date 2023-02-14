@@ -107,9 +107,31 @@ The term Markov in the MDP or Markov decision process refers to that the future 
 
 > <img src="./images/w03-05-Review_of_key_concepts/img_2023-02-14_19-02-52.png">
 
-
-
 # State-action value function 
+
+There's something a little bit strange about this definition because how do we know what is the optimal behavior?
+
+There's almost something circular about this definition, but when we will come back later
+
+Let's look at an example we saw previously that this is a pretty good policy. It's actually the optimal policy for the mars rover application when the discount factor gamma is 0.5
+
+- We compute Q(2,right), go right in state 3, come back in state 2 then state 1, return = 12.5
+- Than Q(2, left), return = 50
+- write the return 12.5 and 50 in right and left in case state 2
+- etc... 
+
+> <img src="./images/w03-06-State-action_value_function_definition/img_2023-02-14_19-07-38.png">
+
+The best possible action a in status s is the action a that maximizes Q(s,a)
+
+An important part of the reinforcement learning algorithm consit in computing Q(s,a) for every state and for every action
+Then when you're in some state s all you have to do is look at the different actions a and pick the action that maximizes Q(s,a). 
+That means that you will have $/pi(s)=a$ where a maximize Q(sa,a)
+
+Q function is sometimes also called the **optimal Q function**.
+
+> <img src="./images/w03-06-State-action_value_function_definition/img_2023-02-14_19-08-56.png">
+
 
 ## State-action value function definition
 
