@@ -82,6 +82,20 @@ The third example is a mixt policy, you go to the left from state 2, 3 and 4, go
 > <img src="./images/w03-03-The_Return_in_reinforcement_learning/img_2023-02-14_18-42-22.png">
 
 
+## Making decisions: Policies in reinforcement learning
+
+Differents examples:
+1. always go for the nearer reward
+2. always go for the larger reward
+3. always go for smaller reward,
+4. go left unless you're just one step away from the lesser reward
+
+> <img src="./images/w03-04-Making_decisions_Policies_in_reinforcement_learning/img_2023-02-14_18-59-54.png">
+
+The goal of reinforcement learning is to find a policy $\pi(s)$ that tells you what action to take in every state so as to maximize the return.
+
+> <img src="./images/w03-04-Making_decisions_Policies_in_reinforcement_learning/img_2023-02-14_19-00-20.png">
+
 
 ## Review of key concepts
 
