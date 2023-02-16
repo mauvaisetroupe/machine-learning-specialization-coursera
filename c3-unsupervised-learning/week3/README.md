@@ -160,8 +160,19 @@ Explanation with example
 
 ## Random (stochastic) environment (Optional)
 
+In some applications, when you take an action, the outcome is not always completely reliable.
+In practice, many robots don't always manage to do exactly what you tell them because of wind blowing, the wheel slipping, etc
+In our example, if you command to go left, it has 0.9 chance of going in the left direction, but the 0.1 chance of actually heading to the right
 
+> <img src="./images/w03-09-Random_environment/img_2023-02-14_20-31-10.png">
 
+There's a generalization of the reinforcement learning framework by computing the average (or "expected" in statistics)
+
+> <img src="./images/w03-09-Random_environment/img_2023-02-14_20-31-47.png">
+
+Bellmans equations become :
+
+> <img src="./images/w03-09-Random_environment/img_2023-02-14_20-32-02.png">
 
 
 # Continuous state space
