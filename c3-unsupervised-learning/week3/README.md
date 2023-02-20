@@ -179,9 +179,99 @@ Bellmans equations become :
 
 ## Example of continuous state space applications
 
+
+Example of application of controlling a car or a truck
+- x, y its position
+- $\dot x$ and $\dot y$ its speeds in x-direction and in y-direction
+- $\theta$ its orientation
+- $\dot \theta$ rotation speed
+> <img src="./images/w03-10-Example_of_continuous_state_space_applications/img_2023-02-20_16-04-36.png">
+
+For helicopter, 
+- x, y, z its position
+- $\dot x$ and $\dot y$ $\dot z$ its speeds in x-direction, y-direction and z-direction
+- roll, pitch, yaw
+- and associated rotation speed
+
+> <img src="./images/w03-10-Example_of_continuous_state_space_applications/Pitch-roll-yaw.png">
+
+> <img src="./images/w03-10-Example_of_continuous_state_space_applications/img_2023-02-20_16-04-54.png">
+
+
 ## Lunar lander
 
+Action :
+- nothing
+- main, left or rigth engine
+
+Parameters :
+- x, y position, $\dot x$ and $\dot y$ x-direction and in y-direction speed
+- $\theta$ its orientation and $\dot \theta$ rotation speed
+- l and r binary valued depending on whether the left and right legs are touching the ground
+
+> <img src="./images/w03-11-Lunar_lander/img_2023-02-16_18-38-12.png">
+
+Negative reward to encourage it not to waste too much fuel and fire thrusters when not necessary
+> <img src="./images/w03-11-Lunar_lander/img_2023-02-16_18-38-30.png">
+
+So, in summary, this is the lunar lander proble to solve :
+
+> <img src="./images/w03-11-Lunar_lander/img_2023-02-16_18-38-50.png">
+
 ## Learning the state-value function
+
+The key idea is that we're going to train a neural network to approximate the state action value function Q(s,a) to pick good actions
+
+Reinforcemnet is different from supervised learning, but we will use neural network inside the reinforcement learning algorithm. The target value is y = Q(s,a)
+
+> <img src="./images/w03-12-Learning_the_state-value_function/img_2023-02-16_18-20-15.png">
+
+How do you train a neural network to output Q(s,a)? 
+
+The approach will be to use Bellman's equations to create a training set with lots of examples, x and y, and then we'll use supervised learning to learm a mappig from x -> y, ie. from (s,a) -> Q(s,a) 
+
+
+1. we fly the lunar lander randomly, sometimes crashing, sometimes not and getting tuples (s,a,R(s),s') as experienced for our learning algorithm. 
+
+   We're going to use the lunar lander and just try taking different actions randomly (we don't have yet the good policy)
+    - We start for state s, 
+    - take randomly action a, 
+    - get some reward R(s) 
+    - and a new state s'
+
+   We save the latest 10,000 most recent tuples (s, a, R(s), s') 
+
+2. Each tuple is enough to create a single training example:
+
+    - With s and a, you have directly x
+    - With R(s) and s', you have all necessary input to compute y = R(s) + $\gamma$ . max Q(s',a')
+    - We don't know Q(s,a), sor for the first iteration, we start with a totally random guess
+
+> <img src="./images/w03-12-Learning_the_state-value_function/img_2023-02-16_18-20-59.png">
+
+
+Same computation for second example until 10.000 examples
+
+> <img src="./images/w03-12-Learning_the_state-value_function/img_2023-02-16_18-21-18.png">
+
+Let's see the full algorithm
+
+
+0. First, we initialize all the parameters of the neural network randomly, because we don't know how to compute Q(s,a) and we pretend that this neural network is our initial random guess for the Q-function (this is a little it like when you initialize all the parameters randomly and then use gradient descent to improve the parameters when training linear regression). What's important is that the algorithm can slowly improve the parameters to get a better estimate.
+
+    Do Repeatedly:
+
+    1. Take random actions randomly. During all the algorithm we will see more than 100.000 steps, but we store 10.000 example (s,a, R(s),s') for memory constraint (technique is called **replay buffer**)
+
+    2. Train the neural network
+        
+        For each of the 10.000 tuples, we create a new feature :
+        - x with s and a
+        - y with R(s) and Q(s',a') calculated by the neural network
+
+        We train a new neural network with the 10.000 just created in previous step. 
+
+> <img src="./images/w03-12-Learning_the_state-value_function/img_2023-02-16_18-21-50.png">
 
 ## Algorithm refinement: Improved neural network architecture
 
