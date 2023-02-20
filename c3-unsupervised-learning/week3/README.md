@@ -259,17 +259,17 @@ Let's see the full algorithm
 
 0. First, we initialize all the parameters of the neural network randomly, because we don't know how to compute Q(s,a) and we pretend that this neural network is our initial random guess for the Q-function (this is a little it like when you initialize all the parameters randomly and then use gradient descent to improve the parameters when training linear regression). What's important is that the algorithm can slowly improve the parameters to get a better estimate.
 
-    Do Repeatedly:
+1. Do Repeatedly:
 
     1. Take random actions randomly. During all the algorithm we will see more than 100.000 steps, but we store 10.000 example (s,a, R(s),s') for memory constraint (technique is called **replay buffer**)
 
     2. Train the neural network
         
-        For each of the 10.000 tuples, we create a new feature :
-        - x with s and a
-        - y with R(s) and Q(s',a') calculated by the neural network
+        1. For each of the 10.000 tuples, we create a new feature :
+            - x with s and a
+            - y with R(s) and Q(s',a') calculated by the neural network
 
-        We train a new neural network with the 10.000 just created in previous step. 
+        2. We train a new neural network with the 10.000 just created in previous step. 
 
 > <img src="./images/w03-12-Learning_the_state-value_function/img_2023-02-16_18-21-50.png">
 
