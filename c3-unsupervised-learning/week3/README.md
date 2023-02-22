@@ -128,7 +128,7 @@ The best possible action a in status s is the action a that maximizes Q(s,a)
 
 An important part of the reinforcement learning algorithm consit in computing Q(s,a) for every state and for every action
 Then when you're in some state s all you have to do is look at the different actions a and pick the action that maximizes Q(s,a). 
-That means that you will have $/pi(s)=a$ where a maximize Q(sa,a)
+That means that you will have $\pi(s)=a$ where a maximize Q(sa,a)
 
 Q function is sometimes also called the **optimal Q function**.
 
@@ -274,6 +274,15 @@ Let's see the full algorithm
 > <img src="./images/w03-12-Learning_the_state-value_function/img_2023-02-16_18-21-50.png">
 
 ## Algorithm refinement: Improved neural network architecture
+
+Instead of computing Q(s,a) for the 4 actions:
+
+> <img src="./images/w03-13-Algorithm_refinement_Improved_neural_network_architecture/img_2023-02-20_18-30-40.png">
+
+We adapt the neural network in oder to compute Q(s,a) for the 4 actions  simultaneously
+
+> <img src="./images/w03-13-Algorithm_refinement_Improved_neural_network_architecture/img_2023-02-20_18-31-13.png">
+
 
 ## Algorithm refinement: ϵ-greedy policy
 
