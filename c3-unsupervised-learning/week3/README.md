@@ -286,6 +286,19 @@ We adapt the neural network in oder to compute Q(s,a) for the 4 actions  simulta
 
 ## Algorithm refinement: ϵ-greedy policy
 
+
+When learning how to approximate Q(s,a), we need to take some actions in the lunar lander. How do you pick those actions? The most common way to do so is to use something called an epsilon-greedy policy
+
+> <img src="./images/w03-14-Algorithm_refinement_E-greedy_policy/img_2023-02-24_19-51-10.png">
+
+The epsilon-greedy strategy is a common exploration strategy used in reinforcement learning that balances:
+- exploitaton phase - chooses the action with the highest expected reward with a probability of 1-epsilon.
+- exploration - chooses a random action with a probability of epsilon
+
+Epsilon is typically decreased over time to shift focus towards exploitation.
+
+> <img src="./images/w03-14-Algorithm_refinement_E-greedy_policy/img_2023-02-24_19-51-55.png">
+
 ## Algorithm refinement: Mini-batch and soft updates (optional)
 
 ## The state of reinforcement learning
