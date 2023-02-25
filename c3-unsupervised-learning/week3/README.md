@@ -338,3 +338,4 @@ The soft update method often causes the reinforcement learning algorithm to conv
 
 ## Summary and thank you
 
+> <img src="./images/w03-17-Summary_and_thank_You/img_2023-02-25_06-31-40.png">
