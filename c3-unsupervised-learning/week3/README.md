@@ -299,6 +299,8 @@ Epsilon is typically decreased over time to shift focus towards exploitation.
 
 > <img src="./images/w03-14-Algorithm_refinement_E-greedy_policy/img_2023-02-24_19-51-55.png">
 
+Reinforcement learning algorithms, maybe because less mature than supervised learning algorithms, are much more finicky to little choices of hyper parameters, and tuning parameters like epsilon could be frustating compared to tuning a supervised learning algorithm
+
 ## Algorithm refinement: Mini-batch and soft updates (optional)
 
 First technique called **mini-batches gradient descent**, can speedup reinforcement learning algorithm but also neural network, linear regression, or logistic regression model. The problem with these algorithm when your dataset is this big (100 million), is that every single step of gradient descent requires computing this average over 100 million examples, and this turns out to be very slow.
@@ -329,8 +331,7 @@ The soft update method often causes the reinforcement learning algorithm to conv
 
 ## The state of reinforcement learning
 
-
-
+> <img src="./images/w03-16-The_state_of_reinforcement_learning/img_2023-02-25_06-22-41.png">
 
 
 # Summary and thank you
