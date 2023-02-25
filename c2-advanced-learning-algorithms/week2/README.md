@@ -168,7 +168,9 @@ Computing with intermediate term could create round-off error.
 
 > <img src="./images/w02-09-Improved_implementation_of_softmax/img_2023-02-01_17-20-56.png">
 
-Algorithm that allows TensorFlow to not have to compute a as an intermediate term for logistic regression
+Algorithm that allows TensorFlow to not have to compute a as an intermediate term for logistic regression :
+- from_logits=True
+- linear' activation on output layer (instead of softmax)
 
 > <img src="./images/w02-09-Improved_implementation_of_softmax/img_2023-02-01_17-28-36.png">
 
