@@ -301,6 +301,32 @@ Epsilon is typically decreased over time to shift focus towards exploitation.
 
 ## Algorithm refinement: Mini-batch and soft updates (optional)
 
+First technique called **mini-batches gradient descent**, can speedup reinforcement learning algorithm but also neural network, linear regression, or logistic regression model. The problem with these algorithm when your dataset is this big (100 million), is that every single step of gradient descent requires computing this average over 100 million examples, and this turns out to be very slow.
+
+
+> <img src="./images/w03-15-Algorithm_refinement_Mini-batch_and_soft_updates/img_2023-02-24_20-03-41.png">
+
+What mini-batch gradient descent we use mini-batch 1 for thee first iteration, mini-batch 2 for the second iteration, etc. 
+
+> <img src="./images/w03-15-Algorithm_refinement_Mini-batch_and_soft_updates/img_2023-02-24_20-04-39.png">
+
+For each iteration with mini-batch gradient descent, direction is maybe not the best gradient descent direction
+But it will tend toward the global minimum, not reliably and somewhat noisily, but every iteration is much more computationally inexpensive and so mini-batch learning or mini-batch gradient descent is often much faster algorithm for very large training set.
+
+> <img src="./images/w03-15-Algorithm_refinement_Mini-batch_and_soft_updates/img_2023-02-24_20-05-06.png">
+
+In reinforcemnt algorithm, we choose a subset of 1'000 examples instead of using 10'000 example
+It makes each iteration of training a model a little bit more noisy but it speeds up this reinforcement learning algorithm 
+
+> <img src="./images/w03-15-Algorithm_refinement_Mini-batch_and_soft_updates/img_2023-02-24_20-06-07.png">
+
+The second technique to refine the algorithm is **soft update**. When we assigne the neural network Q with Q-new, change can be very abrupt. Maybe this assignement overwrote Q function with a potentially worse noisy neural network. With soft update, we prevent unlucky step by assigning only a percentage of neural network with new values
+
+The soft update method often causes the reinforcement learning algorithm to converge more reliably.
+
+> <img src="./images/w03-15-Algorithm_refinement_Mini-batch_and_soft_updates/img_2023-02-24_20-07-13.png">
+
+
 ## The state of reinforcement learning
 
 
